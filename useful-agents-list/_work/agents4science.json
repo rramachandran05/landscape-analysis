@@ -1,0 +1,1220 @@
+[
+{
+"id": "arXiv:2606.13662",
+"title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+"url": "http://arxiv.org/abs/2606.13662v1",
+"summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfaces that shape agent behavior. We frame this as environment engineering: building environments that a",
+"has_code": true
+},
+{
+"id": "arXiv:2606.12736",
+"title": "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales",
+"url": "http://arxiv.org/abs/2606.12736v1",
+"summary": "AI agents are increasingly being developed to accelerate scientific discovery, yet their practical capabilities in real research settings remain poorly understood. Existing benchmarks for AI agents rarely capture the complexity, heterogeneity, and extended reasoning required by scientific work, whereas benchmarks for scientific tasks often reduce research to static, direct problems and provide limited support for interactive evaluation. Here, we introduce SciAgentArena, a systematic benchmark for evaluating AI agents in real-world scientific research scenarios drawn from emerging needs across ",
+"has_code": false
+},
+{
+"id": "arXiv:2606.11897",
+"title": "Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills",
+"url": "http://arxiv.org/abs/2606.11897v1",
+"summary": "Scientific discovery workflows usually contain and rely heavily on lab notes, where researchers record observations, interpret uncertain results, and plan follow-up experiments. Such informative lab notes preserve evolving scientific reasoning and author uncertainty, rather than polished final results exhibited in publications, providing a valuable opportunity for AI to engage in scientific exploration at a more comprehensive and deeper level. However, most prior work on scientific text focuses on papers, protocols, or structured databases, leaving informal laboratory notes underexplored as in",
+"has_code": false
+},
+{
+"id": "arXiv:2606.11851",
+"title": "StatefulDiscovery: Evidence-Calibrated Claim Formation in Open-Ended Scientific Discovery",
+"url": "http://arxiv.org/abs/2606.11851v1",
+"summary": "Open-ended scientific discovery asks agents to move beyond executing analyses for predefined questions. Across multiple rounds of exploration, a discovery agent must decide which phenomena warrant investigation while avoiding overinterpretation, where emerging claims exceed the evidential scope of the analyses supporting them. This creates an evidence-calibration problem: the exploration trajectory must be coupled with claim status so that evidence can guide both what to investigate next and what can be claimed. We introduce StatefulDiscovery, a discovery framework that externalizes investigat",
+"has_code": false
+},
+{
+"id": "arXiv:2606.11150",
+"title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+"url": "http://arxiv.org/abs/2606.11150v1",
+"summary": "Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. Increasingly, LLM agents can also perform in silico biology tasks that previously required experienced human biologists. These emerging AI capabilities offer new opportunities for scientific discovery and biomedical advances, but they also shift the landscape of biosecurity risks. To address this, we introduce the Agentic Bio-Capabilities Benchmark (ABC-Bench), a suite of tasks to measure agentic biosecurity-relevant capabilities. AB",
+"has_code": false
+},
+{
+"id": "arXiv:2606.10402",
+"title": "Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries",
+"url": "http://arxiv.org/abs/2606.10402v1",
+"summary": "Scientific discovery is often a collective process: researchers share partial results, inspect failed attempts, and build on each other's ideas over long time horizons. Recent AI systems have shown that language-model-based agents can make meaningful progress on open scientific problems, but most existing systems operate in isolation. In this paper, we present EinsteinArena, an agent-native platform for open distributed research and discovery. EinsteinArena provides agents with a live set of open problems, each with a solid verifier, public leaderboard, and problem-specific discussion forum wh",
+"has_code": false
+},
+{
+"id": "arXiv:2606.08234",
+"title": "SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents",
+"url": "http://arxiv.org/abs/2606.08234v1",
+"summary": "LLM-based scientific agents have shown strong capacity for autonomous research, yet their safety layers remain structurally divorced from core reasoning: they inspect pipeline outputs rather than shaping the deliberation that produces them. This separation opens two failure modes: safety signals accumulated at one stage are discarded before the next, and sequences of individually benign tool calls can compose into harmful outcomes that no single-step filter detects. To address these challenges, we introduce \\textbf{SciTrace}, a framework that weaves safety reasoning into every stage of the sci",
+"has_code": false
+},
+{
+"id": "arXiv:2606.07718",
+"title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
+"url": "http://arxiv.org/abs/2606.07718v1",
+"summary": "Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to months to build, where scientists care about correctness and robustness, not implementation details. We present an empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. We assess agents on tasks substantially larger than existing benchmarks, datasets orders of magnitude bigger, and evaluation criteria grounded in domain expert standards. We show that agents can solve several",
+"has_code": true
+},
+{
+"id": "arXiv:2606.06749",
+"title": "Deterministic access to global viral sequence data enables robust agentic scientific discovery",
+"url": "http://arxiv.org/abs/2606.06749v1",
+"summary": "Public viral genome resources such as the National Center for Biotechnology Information (NCBI) Virus database are central to outbreak response, evolutionary analysis, vaccine design, and genomic surveillance. Yet many high-value retrieval workflows remain optimized for interactive use rather than deterministic, reproducible programmatic interfaces. This creates a challenge for Large Language Model (LLM)-based scientific agents, where errors in metadata interpretation, filtering logic, or retrieval can propagate into incorrect datasets. To evaluate agentic viral data retrieval, we built VirBenc",
+"has_code": false
+},
+{
+"id": "arXiv:2606.04751",
+"title": "FALSIFYBENCH: Evaluating Inductive Reasoning in LLMs with Rule Discovery Games",
+"url": "http://arxiv.org/abs/2606.04751v1",
+"summary": "Large language models (LLMs) are increasingly deployed as autonomous agents in scientific tasks. Yet whether these systems can effectively engage in forms of inductive reasoning relevant to scientific discovery remains an open question. In this work, we introduce FALSIFYBENCH, an evaluation framework for hypothesis-driven reasoning inspired by the classic Wason 2-4-6 task, in which agents must discover hidden semantic properties by iteratively proposing examples and receiving feedback. This task captures key elements of scientific reasoning: hypothesis generation, evidence gathering, and belie",
+"has_code": true
+},
+{
+"id": "arXiv:2606.05238",
+"title": "DeployBench: Benchmarking LLM Agents for Research Artifact Deployment",
+"url": "http://arxiv.org/abs/2606.05238v1",
+"summary": "LLM agents have made rapid progress on software engineering and ML research tasks, but these advances often assume access to a working runnable environment. For research artifacts released alongside published papers, setting up such an environment from a fresh machine remains a major bottleneck. Existing environment setup benchmarks do not cover the full scope of research artifact deployment, which involves multi-language toolchains, system-level dependencies beyond containers (e.g. GPU/CUDA and kernel configurations), and legacy artifact compatibility. We introduce DeployBench, a multi-domain",
+"has_code": false
+},
+{
+"id": "arXiv:2606.01444",
+"title": "Self-Revising Discovery Systems for Science: A Categorical Framework for Agentic Artificial Intelligence",
+"url": "http://arxiv.org/abs/2606.01444v1",
+"summary": "Scientific discovery is not only answer generation but revision of the representational regime in which evidence, artifacts, operations, and verifiers are typed. We develop a category-theoretic account of agentic discovery for materials science. In a fixed regime b with schema category S_b, the system state is a copresheaf I_t: S_b -> Set, and provenance is the category of elements \\int_{S_b} I_t. Fixed-regime operation is an update on such states, endofunctorial only when provenance-preserving refinements are specified and preserved. Discovery is instead a verified regime transition u: S_b ->",
+"has_code": true
+},
+{
+"id": "arXiv:2606.01316",
+"title": "Science Earth: Towards A Planet-Scale Operating System for AI-Native Scientific Discovery",
+"url": "http://arxiv.org/abs/2606.01316v1",
+"summary": "Scientific discovery demands intelligence, perseverance, and serendipity across vast search spaces. Today, top scientific capabilities remain siloed--one AI system for biological analysis, another for clinical reasoning, mathematical derivation, or materials simulation--and no pre-designed team can anticipate every skill a question will need. Science Earth is a planet-scale scientific runtime in which any capability--a simulation cluster, a wet-lab robot, a proof engine, a single-cell pipeline--can connect to any other, with collaboration structure emerging from the question itself. Its underl",
+"has_code": true
+},
+{
+"id": "arXiv:2605.31468",
+"title": "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle",
+"url": "http://arxiv.org/abs/2605.31468v1",
+"summary": "Scientific research has traditionally been human-intensive, requiring researchers to coordinate literature, ideas, experiments, manuscripts, and review responses across long project cycles. The rise of LLM-based scientific agents creates an opportunity to automate this process. Such a system must support the full research lifecycle, maintain structured persistent memory across projects, and improve its own research procedures over time. However, existing systems either partially satisfy or fail to satisfy these requirements, leaving a gap for a unified automated scientific research system. As ",
+"has_code": true
+},
+{
+"id": "arXiv:2605.30329",
+"title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+"url": "http://arxiv.org/abs/2605.30329v1",
+"summary": "Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We introduce SoundnessBench, a curated benchmark of 1,099 machine-learning research proposals reconstructed from ICLR submissions, labeled with reviewer soundness sub-scores, and audited against source papers. SoundnessBench should be interprete",
+"has_code": false
+},
+{
+"id": "arXiv:2606.07591",
+"title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
+"url": "http://arxiv.org/abs/2606.07591v2",
+"summary": "AI coding agents are increasingly used for scientific work, but their end-to-end autonomous research capability remains difficult to verify. We present ResearchClawBench, a benchmark for evaluating autonomous scientific research across 40 tasks from 10 scientific domains. Each task is grounded in a real published paper, provides related literature and raw data, and hides the target paper during evaluation. Expert-curated multimodal rubrics decompose the target scientific artifacts into weighted criteria, enabling evaluation of target-paper-level re-discovery while leaving room for new discover",
+"has_code": false
+},
+{
+"id": "arXiv:2605.29966",
+"title": "Compass: Navigating Global Marine Lead Data Integration through Expert-Guided LLM Agent",
+"url": "http://arxiv.org/abs/2605.29966v1",
+"summary": "Marine lead (Pb) and its isotopes are critical tracers for ocean circulation and anthropogenic pollution, yet in-situ observations remain costly and sparse. While vast historical records exist, they lie buried within the unstructured content of academic papers, creating \"data silos\" inaccessible to comprehensive analysis. Manual extraction is unscalable, while general-purpose Large Language Models (LLMs) lack the necessary domain-specific knowledge, leading to hallucinations and scientifically invalid outputs. To address this, we introduce an expert-guided adaptation approach that enables LLMs",
+"has_code": false
+},
+{
+"id": "arXiv:2605.28655",
+"title": "AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+"url": "http://arxiv.org/abs/2605.28655v1",
+"summary": "Scientific research proceeds through iterative cycles of hypothesis generation, experiment design, execution, and revision. AI agents can automate parts of this process, but existing approaches typically follow a single research trajectory or coordinate through a central planner with fixed objectives. As a result, they struggle to sustain parallel exploration, adapt as experimental evidence changes, or preserve knowledge of failed directions over long-running experiments. We introduce AutoScientists, a decentralized team of AI agents for long-running computational scientific experimentation. A",
+"has_code": true
+},
+{
+"id": "arXiv:2605.27905",
+"title": "AI Research Agents Narrow Scientific Exploration",
+"url": "http://arxiv.org/abs/2605.27905v1",
+"summary": "AI research agents can now generate research ideas, design experiments, run code, and draft papers, raising the possibility of large-scale AI-assisted scientific discovery. Many current agent frameworks explicitly encourage the generation of novel and high-impact ideas. Yet it remains unclear whether AI-assisted ideation broadens scientific exploration or mainly concentrates around existing work. We study AI research agents as scientific search systems. Using four AI research-agent frameworks and six large language models, we generate 37,802 scientific ideas from shared seed literature across ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.27873",
+"title": "AIBuildAI-2: A Knowledge-Enhanced Agent for Automatically Building AI Models",
+"url": "http://arxiv.org/abs/2605.27873v1",
+"summary": "AI models underpin data-centric applications from image and text processing to scientific discovery in biology, physics, and chemistry. Yet developing them remains heavily manual, requiring practitioners to design architectures, build training pipelines, and iteratively refine solutions, making it challenging for natural scientists without specialized AI engineering expertise to build the high-performing models their research demands. To reduce this burden and broaden access to AI for scientific discovery, agents that automatically build AI models have been proposed. However, the performance o",
+"has_code": false
+},
+{
+"id": "arXiv:2605.23169",
+"title": "PRAXIS: Case-distilled and code-verified AI agents for biological research",
+"url": "http://arxiv.org/abs/2605.23169v2",
+"summary": "Large language models are moving scientific research from text assistance toward agentic workflows, yet biological research requires strong object validation, methodological suitability, reproducibility, and auditability. Prompt engineering, general RAG, or tool use alone cannot reliably produce domain-specific scientific judgment. Here, we present PRAXIS, a verifiable biological research agent framework driven by literature learning and case distillation. PRAXIS converts research experience, failure boundaries, domain rules, and executable procedures into structured long-term memory. By coord",
+"has_code": false
+},
+{
+"id": "arXiv:2605.22878",
+"title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+"url": "http://arxiv.org/abs/2605.22878v1",
+"summary": "The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks are often prone to logical hallucinations and consuming high inference costs. To bridge this gap, in ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.24018",
+"title": "EvoSci: A Bio-Inspired Multi-Agent Framework for the Evolution of Scientific Discovery",
+"url": "http://arxiv.org/abs/2605.24018v1",
+"summary": "Large language models (LLMs), have shown strong potential in scientific discovery, yet existing methods still face substantial challenges in the design of research workflows and multi-role collaboration mechanisms. To mitigate these issues, we propose EvoSci, a multi-agent scientific collaboration framework, which integrates bio-inspired evolution with knowledge graph modeling. To iteratively generate, evaluate, and refine research ideas, EvoSci incorporates multiple role-based agents, including mentor, researcher, and reviewer. By combining collaborative reasoning, shared memory, and evolutio",
+"has_code": false
+},
+{
+"id": "arXiv:2605.20025",
+"title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+"url": "http://arxiv.org/abs/2605.20025v2",
+"summary": "Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the next attempt, and lessons accumulate across cycles. Existing autonomous research systems often model this process as a linear pipeline: they rely on single-agent reasoning, stop when execution fails, and do not carry experience across runs. We present AutoResearchClaw, a multi-agent autonomous research pipeline built on five mechanisms: structured multi-agent debate for hypothesis generation and result",
+"has_code": true
+},
+{
+"id": "arXiv:2605.18407",
+"title": "Qumus: Realization of An Embodied AI Quantum Material Experimentalist",
+"url": "http://arxiv.org/abs/2605.18407v1",
+"summary": "While modern Large Language Models (LLMs) and agentic artificial intelligence (AI) have demonstrated transformative capabilities in digital domains, the realization of embodied AI capable of real-world scientific discovery remains a difficult frontier. The advancements are hindered by the inherent complexity of integrating high-level reasoning, multimodal information processing and real-time physical execution. Here we introduce Qumus, the first AI quantum materials experimentalist. Physically embodied within a robotic mini-laboratory, Qumus is an intelligent, multimodal, and multi-agent syste",
+"has_code": false
+},
+{
+"id": "arXiv:2605.16616",
+"title": "MLReplicate: Benchmarking Autonomous Research Systems for Machine Learning Reproducibility",
+"url": "http://arxiv.org/abs/2605.16616v1",
+"summary": "Autonomous research systems capable of generating complete scientific manuscripts have advanced rapidly, yet robust and realistic evaluation frameworks have failed to keep pace. To bridge this gap, we introduce MLReplicate, an end-to-end benchmark evaluating autonomous research systems on machine learning reproducibility. The benchmark was constructed from ICML 2025 outstanding papers reformulated into standardized input specifications and evaluated across 6 state-of-the-art research systems: AI SCIENTIST-V1, AI SCIENTIST-V2, AGENT LABORATORY, CYCLERESEARCHER, AI RESEARCHER, and TINY SCIENTIST",
+"has_code": false
+},
+{
+"id": "arXiv:2605.16191",
+"title": "Optimized Three-Dimensional Photovoltaic Structures with LLM guided Tree Search",
+"url": "http://arxiv.org/abs/2605.16191v1",
+"summary": "We present a case study for how AI coding systems can be used to generate novel scientific hypotheses. We combine a generic coding agent (Google's AntiGravity) with an LLM-driven tree search algorithm (Empirical Research Assistance / ERA) to autonomously generate high-efficiency three-dimensional photovoltaic (3DPV) structures that overcome losses limiting flat solar panels at mid-latitudes. These structures operate by presenting favorable angles to the sun throughout the day, and for illustrative purposes we focus on optimizing performance for a single solar day. Our workflow begins by using ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.14791",
+"title": "Beyond AI as Assistants: Toward Autonomous Discovery in Cosmology",
+"url": "http://arxiv.org/abs/2605.14791v2",
+"summary": "Recent advances in artificial intelligence (AI) agents are pushing AI beyond tools toward autonomous scientific discovery. We discuss two complementary agentic systems for cosmology: \\texttt{CMBEvolve}, which targets tasks with explicit quantitative objectives through LLM-guided code evolution and tree search, and \\texttt{CosmoEvolve}, which targets open-ended scientific workflows through a virtual multi-agent research laboratory. As preliminary demonstrations, we apply \\texttt{CMBEvolve} to out-of-distribution detection in weak-lensing maps, where it iteratively improves the benchmark score t",
+"has_code": false
+},
+{
+"id": "arXiv:2605.14306",
+"title": "Towards Self-Evolving Agentic Literature Retrieval",
+"url": "http://arxiv.org/abs/2605.14306v1",
+"summary": "As large language models reshape scientific research, literature retrieval faces a twofold challenge: ensuring source authenticity while maintaining a deep comprehension of academic search intents. While reliable, traditional keyword-centric search fails to capture complex research intents. Frontier LLMs can handle complex research intents, but their high cost and tendency to hallucinate remain key limitations. Here we introduce PaSaMaster, a self-evolving agentic literature retrieval system that produces relevance-scored paper rankings with evidence-grounded recommendations through iterative ",
+"has_code": true
+},
+{
+"id": "arXiv:2605.13618",
+"title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
+"url": "http://arxiv.org/abs/2605.13618v1",
+"summary": "The Materials Genome Initiative catalyzed the proliferation of centralized platforms--SaaS, PaaS, and IaaS--that aggregate computational and experimental resources for accelerated materials discovery. In parallel, breakthroughs in large language models (LLMs) and autonomous agents have created powerful new reasoning capabilities for scientific research. Yet a critical \"last mile\" problem remains: while we possess world-class models and vast repositories of materials data, we lack the organizational infrastructure to compose these capabilities securely across institutional boundaries. The devel",
+"has_code": true
+},
+{
+"id": "arXiv:2605.15227",
+"title": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+"url": "http://arxiv.org/abs/2605.15227v1",
+"summary": "Self-driving laboratories (SDLs) have attracted increasing attention as a means of accelerating scientific discovery; however, developing SDL software remains technically demanding. To improve accessibility, orchestration software frameworks have been proposed to coordinate SDL components. Nevertheless, existing frameworks are primarily designed for human interaction and do not provide standardized interfaces suitable for AI agents. In this work, we propose an SDL software architecture based on the Model Context Protocol (MCP), in which all SDL functionalities are exposed through MCP servers. ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.18854",
+"title": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
+"url": "http://arxiv.org/abs/2605.18854v1",
+"summary": "Coding agents accumulate extensive context during long-running tasks, yet fixed context windows force practitioners to choose between truncation and task failure. While numerous memory condensation strategies have been proposed, from simple sliding windows to LLM-generated summaries, no systematic comparison exists to guide strategy selection, especially in scientific discovery tasks. We evaluate eight memory condensation strategies using GPT-4o on sixty DiscoveryBench tasks spanning six scientific domains (480 total evaluations). We find that no condenser significantly alters hypothesis quali",
+"has_code": false
+},
+{
+"id": "arXiv:2605.11359",
+"title": "CVEvolve: Autonomous Algorithm Discovery for Unstructured Scientific Data Processing",
+"url": "http://arxiv.org/abs/2605.11359v3",
+"summary": "Scientific data processing often requires task-specific algorithms or AI models, creating a barrier for domain scientists who need to analyze their data but may not have extensive computing or image-processing expertise. This barrier is especially pronounced when data are noisy, have a high dynamic range, are sparsely labeled, or are only loosely specified. We introduce CVEvolve, an autonomous agentic harness with a zero-code interface for scientific data-processing algorithm discovery. CVEvolve combines a multi-round search strategy with tools for code execution, evaluation implementation, hi",
+"has_code": false
+},
+{
+"id": "arXiv:2605.11117",
+"title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+"url": "http://arxiv.org/abs/2605.11117v1",
+"summary": "Scientific discovery can be modeled as a sequence of probabilistic decisions that map physical problems to numerical solutions. Recent agentic AI systems automate individual scientific tasks by orchestrating LLM-driven planners, solvers, and evaluators. Each method is a combination of methodological actions, with many viable combinations for any given problem and structural dependencies between choices. However, existing frameworks treat each problem in isolation, with no shared substrate to accumulate methodological experience across domains. Here we show that GRAFT-ATHENA, a self-improving a",
+"has_code": false
+},
+{
+"id": "arXiv:2605.10820",
+"title": "MaD Physics: Evaluating information seeking under constraints in physical environments",
+"url": "http://arxiv.org/abs/2605.10820v1",
+"summary": "Scientific discovery is fundamentally a resource-constrained process that requires navigating complex trade-offs between the quality and quantity of measurements due to physical and cost constraints. Measurements drive the scientific process by revealing novel phenomena to improve our understanding. Existing benchmarks for evaluating agents for scientific discovery focus on either static knowledge-based reasoning or unconstrained experimental design tasks, and do not capture the ability to make measurements and plan under constraints. To bridge this gap, we propose Measuring and Discovering Ph",
+"has_code": false
+},
+{
+"id": "arXiv:2605.08956",
+"title": "Agentic AI Scientists Are Not Built For Autonomous Scientific Discovery",
+"url": "http://arxiv.org/abs/2605.08956v1",
+"summary": "A growing body of work pursues AI scientists capable of end-to-end autonomous scientific discovery. This position paper argues that although they already function as co-scientists, agentic AI scientists are not built for autonomous scientific discovery. We identify the following challenges in building and deploying autonomous AI scientists: (1) Problem selection is influenced by the McNamara fallacy; (2) Agents are built on large language models (LLMs) whose training corpora omit tacit procedural and failure knowledge of laboratory practice; (3) Preference optimisation during post-training com",
+"has_code": false
+},
+{
+"id": "arXiv:2605.08941",
+"title": "MDGYM: Benchmarking AI Agents on Molecular Simulations",
+"url": "http://arxiv.org/abs/2605.08941v1",
+"summary": "The promise of AI-driven scientific discovery hinges on whether AI agents can autonomously design and execute the computational workflows that underpin modern science. Molecular dynamics (MD) simulation presents a natural test bed to stress-test this claim; it requires translating physical intuition into syntactically and semantically correct input scripts, reasoning about initial and boundary conditions, diagnosing numerically unstable trajectories, and interpreting outputs against known physical behavior and laws. We introduce MDGYM, a benchmark of 169 expert-curated MD simulations spanning ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.06772",
+"title": "When Does Critique Improve AI-Assisted Theoretical Physics? SCALAR: Structured Critic--Actor Loop for Agentic Reasoning",
+"url": "http://arxiv.org/abs/2605.06772v1",
+"summary": "As large language models (LLMs) show increasing promise on research-level physics reasoning tasks and agentic AI becomes more common, a practical question emerges: How does the interaction between researchers and agents affect the results? We study this using SCALAR (Structured Critic--Actor Loop for AI Reasoning), an Actor--Critic--Judge pipeline applied to quantum field theory and string theory problems. The Actor proposes solutions, the Critic provides iterative feedback, and an independent Judge evaluates the transcript against reference solutions. We vary the Actor persona, the Critic fee",
+"has_code": true
+},
+{
+"id": "arXiv:2605.06607",
+"title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
+"url": "http://arxiv.org/abs/2605.06607v3",
+"summary": "Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. Extending the same loop to high-fidelity physical simulators is harder, because solver completion does not imply physical validity and many failure modes appear only in field-level imagery rather than in solver logs. We present AI CFD Scientist, an open-source AI scientist for computational fluid dynamics (CFD) that, to our knowledge, is the first to span literature-grounded ideation, validated execution, vision-based physics verifi",
+"has_code": true
+},
+{
+"id": "arXiv:2605.05985",
+"title": "BioResearcher: Scenario-Guided Multi-Agent for Translational Medicine",
+"url": "http://arxiv.org/abs/2605.05985v1",
+"summary": "Translational medicine turns underspecified development goals into evidence synthesis that must combine literature, trials, patents, and quantitative multi-omics analysis while preserving identifiers, uncertainty, and retrievable provenance. General-purpose foundation models and off-the-shelf tool-augmented or multi-agent systems are not built for this: they tend to produce single-shot answers or run open-endedly, and fall short on the auditable, scenario-specific workflows that heterogeneous biomedical sources demand. This paper introduces Ingenix BioResearcher, a scenario-guided multi-agent ",
+"has_code": false
+},
+{
+"id": "arXiv:2605.05921",
+"title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+"url": "http://arxiv.org/abs/2605.05921v1",
+"summary": "Artificial intelligence offers powerful new tools for scientific discovery, but the interaction paradigms required to effectively harness these systems remain underexplored. In this paper, we present findings from a formative user study with 11 expert mathematicians who used AlphaEvolve, an evolutionary coding agent, to tackle advanced problems in their fields of expertise. We identify and characterize a distinct workflow we term intentmaking, the iterative process of discovering, defining, and refining one's experimental goals through active system interaction. We frame this as a natural exte",
+"has_code": false
+},
+{
+"id": "arXiv:2605.04922",
+"title": "Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation",
+"url": "http://arxiv.org/abs/2605.04922v1",
+"summary": "LLM-empowered multi-agent systems offer new potential to accelerate scientific discovery by generating novel research ideas. However, existing methods typically coordinate agents through temporary texts, such as drafts or chat logs; it is difficult to pinpoint the weaknesses in the generated ideas and how the agents refine them. To this end, we introduce \\textbf{Evolving Idea Graphs} (EIG), a graph-based multi-agent scientific ideation framework that can generate high-performance research ideas across various benchmark-native metrics, such as novelty, feasibility, and clarity. Instead of coord",
+"has_code": false
+},
+{
+"id": "arXiv:2605.05258",
+"title": "PARNESS: A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cross-Run Knowledge Accumulation",
+"url": "http://arxiv.org/abs/2605.05258v1",
+"summary": "Recent autonomous research systems -- AI-Scientist, PaperOrchestra, AutoSOTA, DeepResearch, InternAgent, ResearchAgent and others -- show LLM agents can ideate, run experiments and write papers, but each fixes a particular control-flow shape (linear pipeline, state machine, single-agent loop, or fixed-recipe skill pack) at the framework level. We argue this rigidity has five roots: (1) workflows are dynamic and discipline-specific (lab work, surveys, simulations, theory all loop differently); (2) ideation is bounded by LLM context and cross-domain ideation needs knowledge a single context cann",
+"has_code": true
+},
+{
+"id": "arXiv:2605.04375",
+"title": "Experiment-as-Code Labs: A Declarative Stack for AI-Driven Scientific Discovery",
+"url": "http://arxiv.org/abs/2605.04375v2",
+"summary": "To unleash the full potential of AI for Science, we must untether the agents from a purely digital environment. The agent's ability to control and explore in real-world labs is essential because the physical lab remains foundational to scientific discovery. While some tasks can be performed on a computer (e.g., data analysis, running simulated experiments), Eureka moments could occur at any time while operating lab instruments (e.g., when a scientist notices unexpected clues, intuition may prompt a real-time course change). Although autonomous labs are on the rise, which expose programmable AP",
+"has_code": false
+},
+{
+"id": "arXiv:2605.03205",
+"title": "From Knowledge to Action: Outcomes of the 2025 Large Language Model (LLM) Hackathon for Applications in Materials Science and Chemistry",
+"url": "http://arxiv.org/abs/2605.03205v1",
+"summary": "Large language models (LLMs) are rapidly changing how researchers in materials science and chemistry discover, organize, and act on scientific knowledge. This paper analyzes a broad set of community-developed LLM applications in an effort to identify emerging patterns in how these systems can be used across the scientific research lifecycle. We organize the projects into two complementary categories: Knowledge Infrastructure, systems that structure, retrieve, synthesize, and validate scientific information; and Action Systems, systems that execute, coordinate, or automate scientific work acros",
+"has_code": false
+},
+{
+"id": "arXiv:2605.02092",
+"title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+"url": "http://arxiv.org/abs/2605.02092v1",
+"summary": "The automation of scientific research workflows has emerged as a transformative frontier in artificial intelligence, yet existing autonomous research agents remain largely domain-agnostic, lacking the specialized reasoning, method selection, and data acquisition capabilities required for rigorous spatial data science. This paper introduces NORA (Night Owl Research Agent), a harness-engineered, multi-agent autonomous research system purpose-built for GIScience and spatial data science. NORA orchestrates the complete research lifecycle through a skills-first architecture comprising 21 domain-spe",
+"has_code": false
+},
+{
+"id": "arXiv:2605.01489",
+"title": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning",
+"url": "http://arxiv.org/abs/2605.01489v2",
+"summary": "Frontier scientific reasoning is rapidly emerging as a key foundation for advancing AI agents in automated scientific discovery. Deep research agents offer a promising approach to this challenge. These models develop robust problem-solving capabilities through post-training on information-seeking tasks, which are typically curated via knowledge graph construction or iterative web browsing. However, these strategies face inherent limitations in frontier science, where domain-specific knowledge is scattered across sparse and heterogeneous academic sources, and problem solving requires sophistica",
+"has_code": false
+},
+{
+"id": "arXiv:2605.00557",
+"title": "Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output",
+"url": "http://arxiv.org/abs/2605.00557v1",
+"summary": "Scientific discovery is an extended process of ideation--surveying prior work, forming hypotheses, and refining reasoning--yet existing approaches treat this phase as a brief preamble despite its central role in research. We introduce SCISENSE, a sensemaking-grounded framework that operationalizes ideation as a structured sequence of eight cognitive stages (Pirolli \\& Card, 2005). We construct SCISENSE-Traj, a 100K-scale dataset of citation-conditioned research trajectories in two modes: Target, where an LLM reconstructs the ideation path leading to a known paper from its cited works, and Infe",
+"has_code": false
+},
+{
+"id": "arXiv:2604.28158",
+"title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+"url": "http://arxiv.org/abs/2604.28158v2",
+"summary": "Existing research infrastructure is fundamentally document-centric, providing citation links between papers but lacking explicit representations of methodological evolution. In particular, it does not capture the structured relationships that explain how and why research methods emerge, adapt, and build upon one another. With the rise of AI-driven research agents as a new class of consumers of scientific knowledge, this limitation becomes increasingly consequential, as such agents cannot reliably reconstruct method evolution topologies from unstructured text. We introduce Intern-Atlas, a metho",
+"has_code": false
+},
+{
+"id": "arXiv:2604.27092",
+"title": "End-to-end autonomous scientific discovery on a real optical platform",
+"url": "http://arxiv.org/abs/2604.27092v1",
+"summary": "Scientific research has long been human-led, driving new knowledge and transformative technologies through the continual revision of questions, methods and claims as evidence accumulates. Although large language model (LLM)-based agents are beginning to move beyond assisting predefined research workflows, none has yet demonstrated end-to-end autonomous discovery in a real physical system that produces a nontrivial result supported by experimental evidence. Here we introduce Qiushi Discovery Engine, an LLM-based agentic system for end-to-end autonomous scientific discovery on a real optical pla",
+"has_code": false
+},
+{
+"id": "arXiv:2604.26645",
+"title": "SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific Data",
+"url": "http://arxiv.org/abs/2604.26645v2",
+"summary": "AI-for-Science (AI4Science) is increasingly transforming scientific discovery by embedding machine learning models into prediction, simulation, and hypothesis generation workflows across domains. However, the effectiveness of these models is fundamentally constrained by the AI-readiness of scientific data, for which no scalable and systematic evaluation mechanism currently exists. In this work, we propose SciHorizon-DataEVA, a novel agentic system to scalable AI-readiness evaluation of heterogeneous scientific data. At the evaluation-criteria level, we introduce the Sci-TQA2 principles, which ",
+"has_code": false
+},
+{
+"id": "arXiv:2604.25256",
+"title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+"url": "http://arxiv.org/abs/2604.25256v1",
+"summary": "Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing knowledge for a research problem, or to acquire evidence for verifying assumptions and supporting claims. To assess AI agents' capability in driving this process, we present AutoResearchBench, a dedicated benchmark for autonomous scientific literature discovery. AutoResearchBench consists of two complementary task types: (1) Deep Research, which requires tracking down a specific target paper through",
+"has_code": true
+},
+{
+"id": "arXiv:2604.23674",
+"title": "Vibe Medicine: Redefining Biomedical Research Through Human-AI Co-Work",
+"url": "http://arxiv.org/abs/2604.23674v1",
+"summary": "With the emergence of large language models (LLMs) and AI agent frameworks, the human-AI co-work paradigm known as Vibe Coding is changing how people code, making it more accessible and productive. In scientific research, where workflows are more complex and the burden of specialized labor limits independent researchers and those in low-resource areas, the potential impact is even greater, particularly in biomedicine, which involves heterogeneous data modalities and multi-step analytical pipelines. In this paper, we introduce Vibe Medicine, a co-work paradigm in which clinicians and researcher",
+"has_code": false
+},
+{
+"id": "arXiv:2604.22861",
+"title": "IntrAgent: An LLM Agent for Content-Grounded Information Retrieval through Literature Review",
+"url": "http://arxiv.org/abs/2604.22861v1",
+"summary": "Scientific research relies on accurate information retrieval from literature to support analytical decisions. In this work, we introduce a new task, INformation reTRieval through literAture reVIEW (IntraView), which aims to automate fine-grained information retrieval faithfully grounded in the provided content in response to research-driven queries, and propose IntrAgent, an LLM-based agent that addresses this challenging task. In particular, IntrAgent is designed to mimic human behaviors when reading literature for information retrieval -- identifying relevant sections and then iteratively ex",
+"has_code": false
+},
+{
+"id": "arXiv:2604.18805",
+"title": "AI scientists produce results without reasoning scientifically",
+"url": "http://arxiv.org/abs/2604.18805v1",
+"summary": "Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to the epistemic norms that make scientific inquiry self-correcting is poorly understood. Here, we evaluate LLM-based scientific agents across eight domains, spanning workflow execution to hypothesis-driven inquiry, through more than 25,000 agent runs and two complementary lenses: (i) a systematic performance analysis that decomposes the contributions of the base model and the agent scaffold, and (ii) a behavioral analysis of the epistemological st",
+"has_code": false
+},
+{
+"id": "arXiv:2604.17406",
+"title": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
+"url": "http://arxiv.org/abs/2604.17406v3",
+"summary": "The convergence of large language models and agents is catalyzing a new era of scientific discovery: Agentic Science. While the scientific method is inherently iterative, existing agent frameworks are predominantly static, narrowly scoped, and lack the capacity to learn from trial and error. To bridge this gap, we present EvoMaster, a foundational evolving agent framework engineered specifically for Agentic Science at Scale. Driven by the core principle of continuous self-evolution, EvoMaster empowers agents to iteratively refine hypotheses, self-critique, and progressively accumulate knowledg",
+"has_code": true
+},
+{
+"id": "arXiv:2604.16922",
+"title": "ClimAgent: LLM as Agents for Autonomous Open-ended Climate Science Analysis",
+"url": "http://arxiv.org/abs/2604.16922v3",
+"summary": "Climate research is pivotal for mitigating global environmental crises, yet the accelerating volume of multi-scale datasets and the complexity of analytical tools have created significant bottlenecks, constraining scientific discovery to fragmented and labor-intensive workflows. While the emergence Large Language Models (LLMs) offers a transformative paradigm to scale scientific expertise, existing explorations remain largely confined to simple Question-Answering (Q&A) tasks. These approaches often oversimplify real-world challenges, neglecting the intricate physical constraints and the data-d",
+"has_code": true
+},
+{
+"id": "arXiv:2604.15456",
+"title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+"url": "http://arxiv.org/abs/2604.15456v1",
+"summary": "Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarel",
+"has_code": false
+},
+{
+"id": "arXiv:2604.15411",
+"title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+"url": "http://arxiv.org/abs/2604.15411v1",
+"summary": "The paradigm of agentic science requires AI systems to conduct robust reasoning and engage in long-horizon, autonomous exploration. However, current scientific benchmarks remain confined to domain knowledge comprehension and complex reasoning, failing to evaluate the exploratory nature and procedural complexity of real-world research. In this work, we present research-oriented evaluations in theoretical and computational physics, a natural testbed with comprehensive domain knowledge, complex reasoning, and verifiable end-to-end workflows without reliance on experiments. Here we introduce PRL-B",
+"has_code": false
+},
+{
+"id": "arXiv:2604.14615",
+"title": "CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors",
+"url": "http://arxiv.org/abs/2604.14615v1",
+"summary": "Scientific discovery in digital health requires converting continuous physiological signals from wearable devices into clinically actionable biomarkers. We introduce CoDaS (AI Co-Data-Scientist), a multi-agent system that structures biomarker discovery as an iterative process combining hypothesis generation, statistical analysis, adversarial validation, and literature-grounded reasoning with human oversight using large-scale wearable datasets. Across three cohorts totaling 9,279 participant-observations, CoDaS identified 41 candidate digital biomarkers for mental health and 25 for metabolic ou",
+"has_code": false
+},
+{
+"id": "arXiv:2604.13699",
+"title": "MIND: AI Co-Scientist for Material Research",
+"url": "http://arxiv.org/abs/2604.13699v1",
+"summary": "Large language models (LLMs) have enabled agentic AI systems for scientific discovery, but most approaches remain limited to textbased reasoning without automated experimental verification. We propose MIND, an LLM-driven framework for automated hypothesis validation in materials research. MIND organizes the scientific discovery process into hypothesis refinement, experimentation, and debate-based validation within a multi-agent pipeline. For experimental verification, the system integrates Machine Learning Interatomic Potentials, particularly SevenNet-Omni, enabling scalable in-silico experime",
+"has_code": true
+},
+{
+"id": "arXiv:2604.13346",
+"title": "AgentSPEX: An Agent SPecification and EXecution Language",
+"url": "http://arxiv.org/abs/2604.13346v1",
+"summary": "Language-model agent systems commonly rely on reactive prompting, in which a single instruction guides the model through an open-ended sequence of reasoning and tool-use steps, leaving control flow and intermediate state implicit and making agent behavior potentially difficult to control. Orchestration frameworks such as LangGraph, DSPy, and CrewAI impose greater structure through explicit workflow definitions, but tightly couple workflow logic with Python, making agents difficult to maintain and modify. In this paper, we introduce AgentSPEX, an Agent SPecification and EXecution Language for s",
+"has_code": false
+},
+{
+"id": "arXiv:2604.13180",
+"title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+"url": "http://arxiv.org/abs/2604.13180v1",
+"summary": "Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the autonomous execution of well-defined scientific tasks. The framework combines an isolated execution environment, a three-layer agent loop, and a self-assessing do-until mechanism to ensure safe and reliable operation while effectively leveraging large language models of varying capability levels. By focusing",
+"has_code": false
+},
+{
+"id": "arXiv:2605.23917",
+"title": "Multi-Persona Debate System for Automated Scientific Hypothesis Generation",
+"url": "http://arxiv.org/abs/2605.23917v1",
+"summary": "Modern scientific discovery is bottlenecked not by data scarcity, but by the inability to synthesize fragmented knowledge into actionable hypotheses. This challenge is especially acute in battery materials research, where electrochemical performance, interfacial behavior, and manufacturing feasibility must be optimized simultaneously. Here, we present the Multi-Persona Debate System (MPDS), a literature-grounded framework for automated scientific hypothesis generation that combines literature retrieval, long-context large language model reasoning, corpus-driven persona induction, and structure",
+"has_code": false
+},
+{
+"id": "arXiv:2604.11307",
+"title": "PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers",
+"url": "http://arxiv.org/abs/2604.11307v1",
+"summary": "Leveraging Multi-modal Large Language Models (MLLMs) to accelerate frontier scientific research is promising, yet how to rigorously evaluate such systems remains unclear. Existing benchmarks mainly focus on single-document understanding, whereas real scientific workflows require integrating evidence from multiple papers, including their text, tables, and figures. As a result, multi-modal, multi-document scientific reasoning remains underexplored and lacks systematic evaluation. To address this gap, we introduce PaperScope, a multi-modal multi-document benchmark designed for agentic deep resear",
+"has_code": false
+},
+{
+"id": "arXiv:2604.09836",
+"title": "COMPOSITE-Stem",
+"url": "http://arxiv.org/abs/2604.09836v2",
+"summary": "AI agents hold growing promise for accelerating scientific discovery; yet, a lack of frontier evaluations hinders adoption into real workflows. Expert-written benchmarks have proven effective at measuring AI reasoning, but most at this stage have become saturated and only measure performance on constrained outputs. To help address this gap, we introduce COMPOSITE-STEM, a benchmark of 70 expert-written tasks in physics, biology, chemistry, and mathematics, curated by doctoral-level researchers. Our benchmark combines exact-match grading and criterion-based rubrics with an LLM-as-a-jury grading ",
+"has_code": false
+},
+{
+"id": "arXiv:2604.08898",
+"title": "Omakase: proactive assistance with actionable suggestions for evolving scientific research projects",
+"url": "http://arxiv.org/abs/2604.08898v1",
+"summary": "As AI agents become increasingly capable of complex knowledge tasks, the lack of context limits their capability to proactively reason about a user's latent needs throughout a long evolving project. In scientific research, many researchers still manually query a deep research system and compress their rich project contexts into short, targeted queries. Further, a deep research system produces exhaustive reports, making it difficult to identify concrete actions. To explore the opportunities of research assistants that are proactive throughout a research project, we conducted several studies (N=",
+"has_code": false
+},
+{
+"id": "arXiv:2604.08491",
+"title": "Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery",
+"url": "http://arxiv.org/abs/2604.08491v2",
+"summary": "Large language models (LLMs) are transforming scientific workflows, not only through their generative capabilities but also through their emerging ability to use tools, reason about data, and coordinate complex analytical tasks. Yet in most human-AI collaborations, the primary outputs, figures, are still treated as static visual summaries: once rendered, they are handled by both humans and multimodal LLMs as images to be re-interpreted from pixels or captions. The emergent capabilities of LLMs open an opportunity to fundamentally rethink this paradigm. In this paper, we introduce the concept o",
+"has_code": false
+},
+{
+"id": "doi:10.1109/qcnc69040.2026.00145",
+"title": "A Model Context Protocol Server for Quantum Execution in Hybrid Quantum-HPC Environments",
+"url": "http://arxiv.org/abs/2604.08318v1",
+"summary": "The integration of large language models (LLMs) into scientific research is accelerating the realization of autonomous ``AI Scientists.'' While recent advancements have empowered AI to formulate hypotheses and design experiments, a critical gap remains in the execution of these tasks, particularly in the domain of quantum computing (QC). Executing quantum algorithms requires not only generating code but also managing complex computational resources such as QPUs and high-performance computing (HPC) clusters. In this paper, we propose an AI-driven framework specifically designed to bridge this e",
+"has_code": false
+},
+{
+"id": "arXiv:2604.05557",
+"title": "EpiBench: Benchmarking Multi-turn Research Workflows for Multimodal Agents",
+"url": "http://arxiv.org/abs/2604.05557v1",
+"summary": "Scientific research follows multi-turn, multi-step workflows that require proactively searching the literature, consulting figures and tables, and integrating evidence across papers to align experimental settings and support reproducible conclusions. This joint capability is not systematically assessed in existing benchmarks, which largely under-evaluate proactive search, multi-evidence integration and sustained evidence use over time. In this work, we introduce EpiBench, an episodic multi-turn multimodal benchmark that instantiates short research workflows. Given a research task, agents must ",
+"has_code": false
+},
+{
+"id": "arXiv:2604.05018",
+"title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+"url": "http://arxiv.org/abs/2604.05018v1",
+"summary": "Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial literature reviews. We introduce PaperOrchestra, a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials into submission-ready LaTeX manuscripts, including comprehensive literature synthesis and generated visuals, such as plots and conceptual diagrams. To evaluate performance, we p",
+"has_code": false
+},
+{
+"id": "arXiv:2604.19792",
+"title": "OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 -- Mathematical Corrections & Ecosystem Developments Edition",
+"url": "http://arxiv.org/abs/2604.19792v2",
+"summary": "This paper presents OpenCLAW-P2P v7.0, a comprehensive evolution of the decentralized collective-intelligence platform in which autonomous AI agents publish, peer-review, score, and iteratively improve scientific research papers without any human gatekeeper. Building on the v6.0 foundations -- multi-layer persistence, live reference verification, multi-LLM granular scoring, calibrated deception detection, the Silicon Chess-Grid FSM, and the AETHER containerized inference engine -- this release introduces mathematical corrections to the theoretical framework, ensuring dimensional consistency, p",
+"has_code": false
+},
+{
+"id": "arXiv:2604.03553",
+"title": "Towards the AI Historian: Agentic Information Extraction from Primary Sources",
+"url": "http://arxiv.org/abs/2604.03553v1",
+"summary": "AI is supporting, accelerating, and automating scientific discovery across a diverse set of fields. However, AI adoption in historical research remains limited due to the lack of solutions designed for historians. In this technical progress report, we introduce the first module of Chronos, an AI Historian under development. This module enables historians to convert image scans of primary sources into data through natural-language interactions. Rather than imposing a fixed extraction pipeline powered by a vision-language model (VLM), it allows historians to adapt workflows for heterogeneous sou",
+"has_code": false
+},
+{
+"id": "arXiv:2604.03406",
+"title": "SASAV: Self-Directed Agent for Scientific Analysis and Visualization",
+"url": "http://arxiv.org/abs/2604.03406v1",
+"summary": "With recent advances in frontier multimodal large language models (MLLMs) for data understanding and visual reasoning, the role of LLMs has evolved from passive LLM-as-an-interface to proactive LLM-as-a-judge, enabling deeper integration into the scientific data analysis and visualization pipelines. However, existing scientific visualization agents still rely on domain experts to provide prior knowledge for specific datasets or visualization-oriented objective functions to guide the workflow through iterative feedback. This reactive, data-dependent, human-in-the-loop (HITL) paradigm is time-co",
+"has_code": false
+},
+{
+"id": "arXiv:2604.01452",
+"title": "A Multi-Agent Human-LLM Collaborative Framework for Closed-Loop Scientific Literature Summarization",
+"url": "http://arxiv.org/abs/2604.01452v1",
+"summary": "Scientific discovery is slowed by fragmented literature that requires excessive human effort to gather, analyze, and understand. AI tools, including autonomous summarization and question answering, have been developed to aid in understanding scientific literature. However, these tools lack the structured, multi-step approach necessary for extracting deep insights from scientific literature. Large Language Models (LLMs) offer new possibilities for literature analysis, but remain unreliable due to hallucinations and incomplete extraction. We introduce Elhuyar, a multi-agent, human-in-the-loop sy",
+"has_code": false
+},
+{
+"id": "arXiv:2604.00550",
+"title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
+"url": "http://arxiv.org/abs/2604.00550v1",
+"summary": "The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of \"AI Scientists.\" However, translating these theoretical capabilities into deployment-ready research environments exposes profound infrastructural vulnerabilities. Current frameworks are bottlenecked by fragile JSON-based tool-calling protocols, easily disrupted execution sandboxes that lose graphical outputs, and rigid conversational interfaces inherently ill-suited for high-dimensional scientific data.We introduce BloClaw, a unified, multi-modal operating system designed for Artificial Intellig",
+"has_code": true
+},
+{
+"id": "arXiv:2604.00149",
+"title": "Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations",
+"url": "http://arxiv.org/abs/2604.00149v2",
+"summary": "While large language models (LLMs) promise to revolutionize automated scientific discovery, their application in rigorous real-world physical research is stalled by two critical barriers: a lack of realistic evaluation benchmarks and systemic LLM hallucinations. Here, we address both problems. We introduce QMP-Bench, a pioneering end-to-end research-level benchmark in quantum many-body simulation consisting of $100$ tasks extracted from $21$ high-impact prestigious journals, presenting a challenge even for current frontier LLMs. To establish a paradigm for reliable and transparent AI physicist",
+"has_code": false
+},
+{
+"id": "arXiv:2603.29828",
+"title": "Owl-AuraID 1.0: An Intelligent System for Autonomous Scientific Instrumentation and Scientific Data Analysis",
+"url": "http://arxiv.org/abs/2603.29828v1",
+"summary": "Scientific discovery increasingly depends on high-throughput characterization, yet automation is hindered by proprietary GUIs and the limited generalizability of existing API-based systems. We present Owl-AuraID, a software-hardware collaborative embodied agent system that adopts a GUI-native paradigm to operate instruments through the same interfaces as human experts. Its skill-centric framework integrates Type-1 (GUI operation) and Type-2 (data analysis) skills into end-to-end workflows, connecting physical sample handling with scientific interpretation. Owl-AuraID demonstrates broad coverag",
+"has_code": true
+},
+{
+"id": "arXiv:2603.28986",
+"title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+"url": "http://arxiv.org/abs/2603.28986v1",
+"summary": "Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce Mimosa, an evolving multi-agent framework that automatically synthesizes task-specific multi-agent workflows and iteratively refines them through experimental feedback. Mimosa leverages the Model Context Protocol (MCP) for dynamic tool discovery, generates workflow topologies via a meta-orchestrator, executes subtasks through code-generating age",
+"has_code": false
+},
+{
+"id": "arXiv:2603.28589",
+"title": "Towards a Medical AI Scientist",
+"url": "http://arxiv.org/abs/2603.28589v1",
+"summary": "Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain largely domain-agnostic, limiting their applicability to clinical medicine, where research is required to be grounded in medical evidence with specialized data modalities. In this work, we introduce Medical AI Scientist, the first autonomous research framework tailored to clinical autonomous research. It enables clinically grounded ideation by transforming extensively surveyed literatu",
+"has_code": false
+},
+{
+"id": "arXiv:2603.27738",
+"title": "TianJi:An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science",
+"url": "http://arxiv.org/abs/2603.27738v1",
+"summary": "Artificial intelligence (AI) has achieved breakthroughs comparable to traditional numerical models in data-driven weather forecasting, yet it remains essentially statistical fitting and struggles to uncover the physical causal mechanisms of the atmosphere. Physics-oriented mechanism research still heavily relies on domain knowledge and cumbersome engineering operations of human scientists, becoming a bottleneck restricting the efficiency of Earth system science exploration. Here, we propose TianJi - the first \"AI meteorologist\" system capable of autonomously driving complex numerical models to",
+"has_code": false
+},
+{
+"id": "arXiv:2603.27646",
+"title": "PRBench: End-to-end Paper Reproduction in Physics Research",
+"url": "http://arxiv.org/abs/2603.27646v1",
+"summary": "AI agents powered by large language models exhibit strong reasoning and problem-solving capabilities, enabling them to assist scientific research tasks such as formula derivation and code generation. However, whether these agents can reliably perform end-to-end reproduction from real scientific papers remains an open question. We introduce PRBench, a benchmark of 30 expert-curated tasks spanning 11 subfields of physics. Each task requires an agent to comprehend the methodology of a published paper, implement the corresponding algorithms from scratch, and produce quantitative results matching t",
+"has_code": false
+},
+{
+"id": "arXiv:2603.27584",
+"title": "Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling",
+"url": "http://arxiv.org/abs/2603.27584v2",
+"summary": "Real-world mathematical modeling is inherently an experiential and collaborative endeavor. Domain experts rarely solve complex problems from scratch; instead, they draw upon analogies from historical cases and subject their hypotheses to rigorous peer scrutiny. However, autonomous agents powered by Large Language Models predominantly rely on isolated reasoning paradigms, frequently generating plausible but fundamentally flawed models due to a lack of domain grounding and adversarial verification. To address these limitations, we propose Sci-Mind, a novel framework that mirrors the human scient",
+"has_code": false
+},
+{
+"id": "arXiv:2603.27303",
+"title": "Self-evolving AI agents for protein discovery and directed evolution",
+"url": "http://arxiv.org/abs/2603.27303v1",
+"summary": "Protein scientific discovery is bottlenecked by the manual orchestration of information and algorithms, while general agents are insufficient in complex domain projects. VenusFactory2 provides an autonomous framework that shifts from static tool usage to dynamic workflow synthesis via a self-evolving multi-agent infrastructure to address protein-related demands. It outperforms a set of well-known agents on the VenusAgentEval benchmark, and autonomously organizes the discovery and optimization of proteins from a single natural language prompt.",
+"has_code": false
+},
+{
+"id": "arXiv:2603.25253",
+"title": "MolQuest: A Benchmark for Agentic Evaluation of Abductive Reasoning in Chemical Structure Elucidation",
+"url": "http://arxiv.org/abs/2603.25253v1",
+"summary": "Large language models (LLMs) hold considerable potential for advancing scientific discovery, yet systematic assessment of their dynamic reasoning in real-world research remains limited. Current scientific evaluation benchmarks predominantly rely on static, single-turn Question Answering (QA) formats, which are inadequate for measuring model performance in complex scientific tasks that require multi-step iteration and experimental interaction. To address this gap, we introduce MolQuest, a novel agent-based evaluation framework for molecular structure elucidation built upon authentic chemical ex",
+"has_code": true
+},
+{
+"id": "arXiv:2603.23101",
+"title": "SpecXMaster Technical Report",
+"url": "http://arxiv.org/abs/2603.23101v2",
+"summary": "Intelligent spectroscopy serves as a pivotal element in AI-driven closed-loop scientific discovery, functioning as the critical bridge between matter structure and artificial intelligence. However, conventional expert-dependent spectral interpretation encounters substantial hurdles, including susceptibility to human bias and error, dependence on limited specialized expertise, and variability across interpreters. To address these challenges, we propose SpecXMaster, an intelligent framework leveraging Agentic Reinforcement Learning (RL) for NMR molecular spectral interpretation. SpecXMaster enab",
+"has_code": false
+},
+{
+"id": "arXiv:2603.22376",
+"title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models alongside LLM-based AI Agents with Cloud Computing Access",
+"url": "http://arxiv.org/abs/2603.22376v1",
+"summary": "Recent advances in AI agents for software engineering and scientific discovery have demonstrated remarkable capabilities, yet their application to developing novel ranking models in commercial search engines remains unexplored. In this paper, we present an AI Co-Scientist framework that automates the full search ranking research pipeline: from idea generation to code implementation and GPU training job scheduling with expert in the loop. Our approach strategically employs single-LLM agents for routine tasks while leveraging multi-LLM consensus agents (GPT 5.2, Gemini Pro 3, and Claude Opus 4.5",
+"has_code": false
+},
+{
+"id": "arXiv:2603.21344",
+"title": "The AI Scientific Community: Agentic Virtual Lab Swarms",
+"url": "http://arxiv.org/abs/2603.21344v1",
+"summary": "In this short note we propose using agentic swarms of virtual labs as a model of an AI Science Community. In this paradigm, each particle in the swarm represents a complete virtual laboratory instance, enabling collective scientific exploration that mirrors real-world research communities. The framework leverages the inherent properties of swarm intelligence - decentralized coordination, balanced exploration-exploitation trade-offs, and emergent collective behavior - to simulate the behavior of a scientific community and potentially accelerate scientific discovery. We discuss architectural con",
+"has_code": false
+},
+{
+"id": "arXiv:2603.20132",
+"title": "Revisiting Gene Ontology Knowledge Discovery with Hierarchical Feature Selection and Virtual Study Group of AI Agents",
+"url": "http://arxiv.org/abs/2603.20132v1",
+"summary": "Large language models have achieved great success in multiple challenging tasks, and their capacity can be further boosted by the emerging agentic AI techniques. This new computing paradigm has already started revolutionising the traditional scientific discovery pipelines. In this work, we propose a novel agentic AI-based knowledge discovery-oriented virtual study group that aims to extract meaningful ageing-related biological knowledge considering highly ageing-related Gene Ontology terms that are selected by hierarchical feature selection methods. We investigate the performance of the propos",
+"has_code": false
+},
+{
+"id": "arXiv:2603.19782",
+"title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+"url": "http://arxiv.org/abs/2603.19782v1",
+"summary": "Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language",
+"has_code": false
+},
+{
+"id": "arXiv:2603.18235",
+"title": "Toward Reliable, Safe, and Secure LLMs for Scientific Applications",
+"url": "http://arxiv.org/abs/2603.18235v1",
+"summary": "As large language models (LLMs) evolve into autonomous \"AI scientists,\" they promise transformative advances but introduce novel vulnerabilities, from potential \"biosafety risks\" to \"dangerous explosions.\" Ensuring trustworthy deployment in science requires a new paradigm centered on reliability (ensuring factual accuracy and reproducibility), safety (preventing unintentional physical or biological harm), and security (preventing malicious misuse). Existing general-purpose safety benchmarks are poorly suited for this purpose, suffering from a fundamental domain mismatch, limited threat coverag",
+"has_code": false
+},
+{
+"id": "arXiv:2603.17216",
+"title": "AI Scientist via Synthetic Task Scaling",
+"url": "http://arxiv.org/abs/2603.17216v1",
+"summary": "With the advent of AI agents, automatic scientific discovery has become a tenable goal. Many recent works scaffold agentic systems that can perform machine learning research, but don't offer a principled way to train such agents -- and current LLMs often generate plausible-looking but ineffective ideas. To make progress on training agents that can learn from doing, we provide a novel synthetic environment generation pipeline targeting machine learning agents. Our pipeline automatically synthesizes machine learning challenges compatible with the SWE-agent framework, covering topic sampling, dat",
+"has_code": false
+},
+{
+"id": "arXiv:2603.11515",
+"title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+"url": "http://arxiv.org/abs/2603.11515v1",
+"summary": "Today's scientific challenges, from climate modeling to Inertial Confinement Fusion design to novel material design, require exploring huge design spaces. In order to enable high-impact scientific discovery, we need to scale up our ability to test hypotheses, generate results, and learn from them rapidly. We present MADA (Multi-Agent Design Assistant), a Large Language Model (LLM) powered multi-agent framework that coordinates specialized agents for complex design workflows. A Job Management Agent (JMA) launches and manages ensemble simulations on HPC systems, a Geometry Agent (GA) generates m",
+"has_code": false
+},
+{
+"id": "arXiv:2603.09800",
+"title": "MITRA: An AI Assistant for Knowledge Retrieval in Physics Collaborations",
+"url": "http://arxiv.org/abs/2603.09800v1",
+"summary": "Large-scale scientific collaborations, such as the Compact Muon Solenoid (CMS) at CERN, produce a vast and ever-growing corpus of internal documentation. Navigating this complex information landscape presents a significant challenge for both new and experienced researchers, hindering knowledge sharing and slowing down the pace of scientific discovery. To address this, we present a prototype of MITRA, a Retrieval-Augmented Generation (RAG) based system, designed to answer specific, context-aware questions about physics analyses. MITRA employs a novel, automated pipeline using Selenium for docum",
+"has_code": false
+},
+{
+"id": "arXiv:2603.09756",
+"title": "Epistemic Closure: Autonomous Mechanism Completion for Physically Consistent Simulation",
+"url": "http://arxiv.org/abs/2603.09756v1",
+"summary": "The integration of Large Language Models (LLMs) into scientific discovery is currently hindered by the Implicit Context problem, where governing equations extracted from literature contain invisible thermodynamic assumptions (e.g., undrained conditions) that standard generative models fail to recognize. This leads to Physical Hallucination: the generation of syntactically correct solvers that faithfully execute physically invalid laws. Here, we introduce a Neuro-Symbolic Generative Agent that functions as a cognitive supervisor atop traditional numerical engines. By encapsulating physical laws",
+"has_code": false
+},
+{
+"id": "arXiv:2603.08127",
+"title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+"url": "http://arxiv.org/abs/2603.08127v1",
+"summary": "The increasing adoption of Large Language Models (LLMs) has enabled AI scientists to perform complex end-to-end scientific discovery tasks requiring coordination of specialized roles, including idea generation and experimental execution. However, most state-of-the-art AI scientist systems rely on static, hand-designed pipelines and fail to adapt based on accumulated interaction histories. As a result, these systems overlook promising research directions, repeat failed experiments, and pursue infeasible ideas. To address this, we introduce EvoScientist, an evolving multi-agent AI scientist fram",
+"has_code": false
+},
+{
+"id": "arXiv:2603.07444",
+"title": "HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery",
+"url": "http://arxiv.org/abs/2603.07444v1",
+"summary": "Large language models (LLMs) have enabled agent-based systems that aim to automate scientific research workflows. Most existing approaches focus on fully autonomous discovery, where AI systems generate research ideas, conduct analyses, and produce manuscripts with minimal human involvement. However, empirical research in economics and the social sciences poses additional constraints: research questions must be grounded in available datasets, identification strategies require careful design, and human judgment remains essential for evaluating economic significance. We introduce HLER (Human-in-t",
+"has_code": false
+},
+{
+"id": "arXiv:2603.06739",
+"title": "ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution",
+"url": "http://arxiv.org/abs/2603.06739v2",
+"summary": "Autonomous agents are increasingly expected to support scientific research, and recent benchmarks report progress in code repair and autonomous experimentation. However, these evaluations typically assume a pre-configured execution environment, which requires resolving complex software dependencies, aligning hardware and framework versions, and configuring distributed execution, yet this capability remains largely unbenchmarked. We introduce ResearchEnvBench, a benchmark for environment synthesis in research code execution. Given a research repository, documentation, and a target execution set",
+"has_code": false
+},
+{
+"id": "arXiv:2603.03780",
+"title": "MACC: Multi-Agent Collaborative Competition for Scientific Exploration",
+"url": "http://arxiv.org/abs/2603.03780v1",
+"summary": "Scientific discovery still relies heavily on the manual efforts of individual researchers, leading to limited exploration, redundant trials, and reduced reproducibility. Human-participant data analysis competitions generate diverse approaches, yet fluctuations in participation and the lack of independent repetitions show that parallel exploration alone is insufficient for achieving reliable scientific inquiry. As advanced AI agents based on large language models (LLMs) increasingly perform analytical tasks, relying on a single highly capable agent is unlikely to overcome these structural limit",
+"has_code": false
+},
+{
+"id": "arXiv:2603.03142",
+"title": "APRES: An Agentic Paper Revision and Evaluation System",
+"url": "http://arxiv.org/abs/2603.03142v1",
+"summary": "Scientific discoveries must be communicated clearly to realize their full potential. Without effective communication, even the most groundbreaking findings risk being overlooked or misunderstood. The primary way scientists communicate their work and receive feedback from the community is through peer review. However, the current system often provides inconsistent feedback between reviewers, ultimately hindering the improvement of a manuscript and limiting its potential impact. In this paper, we introduce a novel method APRES powered by Large Language Models (LLMs) to update a scientific papers",
+"has_code": false
+},
+{
+"id": "arXiv:2603.01421",
+"title": "SciDER: Scientific Data-centric End-to-end Researcher",
+"url": "http://arxiv.org/abs/2603.01421v3",
+"summary": "While large language models accelerate scientific discovery, existing agents face severe limitations in adaptability, domain generalization, and multimodal scalability, often struggling to autonomously process raw, domain-specific experimental data. To overcome these barriers, we introduce SciDER, a multi-agent system designed to flexibly automate the entire research lifecycle. This framework employs a novel data-centric approach and integrates a dynamic multimodal skill system across four specialized sub-agents. Specifically, an ideation agent generates novel hypotheses via Evolutionary Idea ",
+"has_code": false
+},
+{
+"id": "arXiv:2604.09584",
+"title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+"url": "http://arxiv.org/abs/2604.09584v1",
+"summary": "Flow physics and more broadly physical phenomena governed by partial differential equations (PDEs), are inherently continuous, high-dimensional and often chaotic in nature. Traditionally, researchers have explored these rich spatiotemporal PDE solution spaces using laboratory experiments and/or computationally expensive numerical simulations. This severely limits automated and large-scale exploration, unlike domains such as drug discovery or materials science, where discrete, tokenizable representations naturally interface with large language models. We address this by coupling multi-agent LLM",
+"has_code": false
+},
+{
+"id": "arXiv:2602.23452",
+"title": "CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era",
+"url": "http://arxiv.org/abs/2602.23452v3",
+"summary": "Scientific research relies on citation integrity, yet large language models (LLMs) have introduced a critical risk: fabricated references that appear plausible but correspond to no real publications. As manual verification becomes infeasible and existing automated tools remain fragile, we introduce CiteAudit, a comprehensive benchmark and detection framework for hallucinated citations. We design a multi-agent verification pipeline that decomposes citation checking into metadata extraction, memory lookup, web-based retrieval, and final judgment. To evaluate this, we construct a large-scale, hum",
+"has_code": true
+},
+{
+"id": "arXiv:2602.23271",
+"title": "Evaluating Stochasticity in Deep Research Agents",
+"url": "http://arxiv.org/abs/2602.23271v1",
+"summary": "Deep Research Agents (DRAs) are promising agentic systems that gather and synthesize information to support research across domains such as financial decision-making, medical analysis, and scientific discovery. Despite recent improvements in research quality (e.g., outcome accuracy when ground truth is available), DRA system design often overlooks a critical barrier to real-world deployment: stochasticity. Under identical queries, repeated executions of DRAs can exhibit substantial variability in terms of research outcome, findings, and citations. In this paper, we formalize the study of stoch",
+"has_code": false
+},
+{
+"id": "arXiv:2602.20639",
+"title": "Grounding LLMs in Scientific Discovery via Embodied Actions",
+"url": "http://arxiv.org/abs/2602.20639v1",
+"summary": "Large Language Models (LLMs) have shown significant potential in scientific discovery but struggle to bridge the gap between theoretical reasoning and verifiable physical simulation. Existing solutions operate in a passive \"execute-then-response\" loop and thus lacks runtime perception, obscuring agents to transient anomalies (e.g., numerical instability or diverging oscillations). To address this limitation, we propose EmbodiedAct, a framework that transforms established scientific software into active embodied agents by grounding LLMs in embodied actions with a tight perception-execution loop",
+"has_code": false
+},
+{
+"id": "arXiv:2602.19810",
+"title": "From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science",
+"url": "http://arxiv.org/abs/2602.19810v3",
+"summary": "In January 2026, the open-source agent framework OpenClaw and the agent-only social network Moltbook produced a large-scale dataset of autonomous AI-to-AI interaction, attracting six academic publications within fourteen days. This study conducts a multivocal literature review of that ecosystem and presents two complementary platforms for autonomous scientific research as a design science response to the architectural failure modes identified. ClawdLab, an open-source platform for structured laboratory collaboration, addresses these failure modes through hard role restrictions, structured adve",
+"has_code": false
+},
+{
+"id": "arXiv:2602.18985",
+"title": "InfEngine: A Self-Verifying and Self-Optimizing Intelligent Engine for Infrared Radiation Computing",
+"url": "http://arxiv.org/abs/2602.18985v1",
+"summary": "Infrared radiation computing underpins advances in climate science, remote sensing and spectroscopy but remains constrained by manual workflows. We introduce InfEngine, an autonomous intelligent computational engine designed to drive a paradigm shift from human-led orchestration to collaborative automation. It integrates four specialized agents through two core innovations: self-verification, enabled by joint solver-evaluator debugging, improves functional correctness and scientific plausibility; self-optimization, realized via evolutionary algorithms with self-discovered fitness functions, fa",
+"has_code": true
+},
+{
+"id": "arXiv:2602.18920",
+"title": "DeepInnovator: Triggering the Innovative Capabilities of LLMs",
+"url": "http://arxiv.org/abs/2602.18920v1",
+"summary": "The application of Large Language Models (LLMs) in accelerating scientific discovery has garnered increasing attention, with a key focus on constructing research agents endowed with innovative capability, i.e., the ability to autonomously generate novel and significant research ideas. Existing approaches predominantly rely on sophisticated prompt engineering and lack a systematic training paradigm. To address this, we propose DeepInnovator, a training framework designed to trigger the innovative capability of LLMs. Our approach comprises two core components. (1) ``Standing on the shoulders of ",
+"has_code": true
+},
+{
+"id": "arXiv:2602.18891",
+"title": "Orchestrating LLM Agents for Scientific Research: A Pilot Study of Multiple Choice Question (MCQ) Generation and Evaluation",
+"url": "http://arxiv.org/abs/2602.18891v1",
+"summary": "Advances in large language models (LLMs) are rapidly transforming scientific work, yet empirical evidence on how these systems reshape research activities remains limited. We report a mixed-methods pilot evaluation of an AI-orchestrated research workflow in which a human researcher coordinated multiple LLM-based agents to perform data extraction, corpus construction, artifact generation, and artifact evaluation. Using the generation and assessment of multiple-choice questions (MCQs) as a testbed, we collected 1,071 SAT Math MCQs and employed LLM agents to extract questions from PDFs, retrieve ",
+"has_code": false
+},
+{
+"id": "arXiv:2603.00084",
+"title": "DeepXiv-SDK: An Agentic Data Interface for Scientific Literature",
+"url": "http://arxiv.org/abs/2603.00084v2",
+"summary": "LLM-agents are increasingly used to accelerate the progress of scientific research. Yet a persistent bottleneck is data access: agents not only lack readily available tools for retrieval, but also have to work with unstrcutured, human-centric data on the Internet, such as HTML web-pages and PDF files, leading to excessive token consumption, limit working efficiency, and brittle evidence look-up. This gap motivates the development of \\textit{an agentic data interface}, which is designed to enable agents to access and utilize scientific literature in a more effective, efficient, and cost-aware m",
+"has_code": false
+},
+{
+"id": "arXiv:2602.13769",
+"title": "OR-Agent: Bridging Evolutionary Search and Structured Research for Automated Algorithm Discovery",
+"url": "http://arxiv.org/abs/2602.13769v2",
+"summary": "Automating scientific discovery in complex, experiment-driven domains requires more than iterative mutation of programs; it demands structured hypothesis management, environment interaction, and principled reflection. We present OR-Agent, a configurable multi-agent research framework designed for automated exploration in rich experimental environments. OR-Agent organizes research as a structured tree-based workflow that explicitly models branching hypothesis generation and systematic backtracking, enabling controlled management of research trajectories beyond simple mutation-crossover loops. A",
+"has_code": true
+},
+{
+"id": "arXiv:2602.10177",
+"title": "Towards Autonomous Mathematics Research",
+"url": "http://arxiv.org/abs/2602.10177v3",
+"summary": "Recent advances in foundational models have yielded reasoning systems capable of achieving a gold-medal standard at the International Mathematical Olympiad. The transition from competition-level problem-solving to professional research, however, requires navigating vast literature and constructing long-horizon proofs. In this work, we introduce Aletheia, a math research agent that iteratively generates, verifies, and revises solutions end-to-end in natural language. Specifically, Aletheia is powered by an advanced version of Gemini Deep Think for challenging reasoning problems, a novel inferen",
+"has_code": true
+},
+{
+"id": "arXiv:2602.10081",
+"title": "Anagent For Enhancing Scientific Table & Figure Analysis",
+"url": "http://arxiv.org/abs/2602.10081v2",
+"summary": "In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities. The complexity and variability of scientific tables and figures, combined with heterogeneous structures and long-context requirements, pose fundamental obstacles to scientific table \\& figure analysis. To quantify these challenges, we introduce AnaBench, a large-scale benchmark featurin",
+"has_code": false
+},
+{
+"id": "arXiv:2602.09801",
+"title": "Tiny Moves: Game-based Hypothesis Refinement",
+"url": "http://arxiv.org/abs/2602.09801v1",
+"summary": "Most machine learning approaches to scientific discovery frame hypotheses as end-to-end predictions, obscuring the incremental structure of scientific reasoning. We propose The Hypothesis Game, a symbolic formalism for hypothesis refinement in which LLM agents operate on a shared hypothesis state using a fixed grammar of reasoning moves. The framework is motivated by the observation that scientific progress often proceeds through small, localized revisions, grounded in domain context, rather than extensive rewrites. We instantiate a minimal game with LLM agents and evaluate it on pathway-level",
+"has_code": false
+},
+{
+"id": "arXiv:2602.09132",
+"title": "SciDataCopilot: An Agentic Data Preparation Framework for AGI-driven Scientific Discovery",
+"url": "http://arxiv.org/abs/2602.09132v1",
+"summary": "The current landscape of AI for Science (AI4S) is predominantly anchored in large-scale textual corpora, where generative AI systems excel at hypothesis generation, literature search, and multi-modal reasoning. However, a critical bottleneck for accelerating closed-loop scientific discovery remains the utilization of raw experimental data. Characterized by extreme heterogeneity, high specificity, and deep domain expertise requirements, raw data possess neither direct semantic alignment with linguistic representations nor structural homogeneity suitable for a unified embedding space. The discon",
+"has_code": false
+},
+{
+"id": "arXiv:2602.08990",
+"title": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
+"url": "http://arxiv.org/abs/2602.08990v1",
+"summary": "We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution. These subsystems are supported by foundational capabilities for deep research, solution optimization, and long horizon memory. The architecture allows InternAgent-1.5 to operate continuously across extended discovery cycles while maintaining coherent and improving behavior. It also enables the system to coordinate computational",
+"has_code": false
+},
+{
+"id": "arXiv:2602.07983",
+"title": "Accelerating Social Science Research via Agentic Hypothesization and Experimentation",
+"url": "http://arxiv.org/abs/2602.07983v1",
+"summary": "Data-driven social science research is inherently slow, relying on iterative cycles of observation, hypothesis generation, and experimental validation. While recent data-driven methods promise to accelerate parts of this process, they largely fail to support end-to-end scientific discovery. To address this gap, we introduce EXPERIGEN, an agentic framework that operationalizes end-to-end discovery through a Bayesian optimization inspired two-phase search, in which a Generator proposes candidate hypotheses and an Experimenter evaluates them empirically. Across multiple domains, EXPERIGEN consist",
+"has_code": false
+},
+{
+"id": "arXiv:2602.06855",
+"title": "AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents",
+"url": "http://arxiv.org/abs/2602.06855v3",
+"summary": "LLM agents hold significant promise for advancing scientific research. To accelerate this progress, we introduce AIRS-Bench (the AI Research Science Benchmark), a suite of 20 tasks sourced from state-of-the-art machine learning papers. These tasks span diverse domains, including language modeling, mathematics, bioinformatics, and time series forecasting. AIRS-Bench tasks assess agentic capabilities over the full research lifecycle -- including idea generation, experiment analysis and iterative refinement -- without providing baseline code. The AIRS-Bench task format is versatile, enabling easy",
+"has_code": false
+},
+{
+"id": "arXiv:2602.06448",
+"title": "Principle-Evolvable Scientific Discovery via Uncertainty Minimization",
+"url": "http://arxiv.org/abs/2602.06448v2",
+"summary": "Large Language Model (LLM)-based scientific agents have accelerated scientific discovery, yet they often suffer from significant inefficiencies due to adherence to fixed initial priors. Existing approaches predominantly operate within a static hypothesis space, which restricts the discovery of novel phenomena, resulting in computational waste when baseline theories fail. To address this, we propose shifting the focus from searching hypotheses to evolving the underlying scientific principles. We present PiEvo, a principle-evolvable framework that treats scientific discovery as Bayesian optimiza",
+"has_code": true
+},
+{
+"id": "arXiv:2604.09554",
+"title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+"url": "http://arxiv.org/abs/2604.09554v2",
+"summary": "Optimism for accelerating scientific discovery with AI continues to grow. Current applications of AI in scientific research range from training dedicated foundation models on scientific data to agentic autonomous hypothesis generation systems to AI-driven autonomous labs. The need to measure progress of AI systems in scientific domains correspondingly must not only accelerate, but increasingly shift focus to more real-world capabilities. Beyond rote knowledge and even just reasoning to actually measuring the ability to perform meaningful work. Prior work introduced the Language Agent Biology B",
+"has_code": true
+},
+{
+"id": "arXiv:2602.07040",
+"title": "Aster: Autonomous Scientific Discovery over 20x Faster Than Existing Methods",
+"url": "http://arxiv.org/abs/2602.07040v1",
+"summary": "We introduce Aster, an AI agent for autonomous scientific discovery capable of operating over 20 times faster than existing frameworks. Given a task, an initial program, and a script to evaluate the performance of the program, Aster iteratively improves the program, often leading to new state-of-the-art performances. Aster's significant reduction in the number of iterations required for novel discovery expands the domain of tractable problems to include tasks with long evaluation durations, such as multi-hour machine learning training runs. We applied Aster to problems in mathematics, GPU kern",
+"has_code": false
+},
+{
+"id": "arXiv:2602.02919",
+"title": "DeltaEvolve: Accelerating Scientific Discovery through Momentum-Driven Evolution",
+"url": "http://arxiv.org/abs/2602.02919v1",
+"summary": "LLM-driven evolutionary systems have shown promise for automated science discovery, yet existing approaches such as AlphaEvolve rely on full-code histories that are context-inefficient and potentially provide weak evolutionary guidance. In this work, we first formalize the evolutionary agents as a general Expectation-Maximization framework, where the language model samples candidate programs (E-step) and the system updates the control context based on evaluation feedback (M-step). Under this view, constructing context via full-code snapshots constitutes a suboptimal M-step, as redundant implem",
+"has_code": false
+},
+{
+"id": "arXiv:2602.02905",
+"title": "FIRE-Bench: Evaluating Agents on the Rediscovery of Scientific Insights",
+"url": "http://arxiv.org/abs/2602.02905v1",
+"summary": "Autonomous agents powered by large language models (LLMs) promise to accelerate scientific discovery end-to-end, but rigorously evaluating their capacity for verifiable discovery remains a central challenge. Existing benchmarks face a trade-off: they either heavily rely on LLM-as-judge evaluations of automatically generated research outputs or optimize convenient yet isolated performance metrics that provide coarse proxies for scientific insight. To address this gap, we introduce FIRE-Bench (Full-cycle Insight Rediscovery Evaluation), a benchmark that evaluates agents through the rediscovery o",
+"has_code": false
+},
+{
+"id": "arXiv:2602.01550",
+"title": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+"url": "http://arxiv.org/abs/2602.01550v2",
+"summary": "Modern scientific research relies on large-scale data, complex workflows, and specialized tools, which existing LLMs and tool-based agents struggle to handle due to limitations in long-horizon planning, robust goal maintenance, and continual learning from execution. To address these issues, in this work, we propose S1-NexusAgent, a self-evolving agent framework designed for multidisciplinary scientific research. S1-NexusAgent adopts a hierarchical Plan-and-CodeAct execution paradigm, decoupling global scientific planning from subtask-level tool execution through a dual-loop architecture, there",
+"has_code": false
+},
+{
+"id": "arXiv:2602.00185",
+"title": "QUASAR: A Universal Autonomous System for Atomistic Simulation and a Benchmark of Its Capabilities",
+"url": "http://arxiv.org/abs/2602.00185v2",
+"summary": "The integration of large language models (LLMs) into materials science offers a transformative opportunity to streamline computational workflows, yet current agentic systems remain constrained by rigid, carefully crafted domain-specific tool-calling paradigms and narrowly scoped agents. In this work, we introduce QUASAR, a universal autonomous system for atomistic simulation designed to facilitate production-grade scientific discovery. QUASAR autonomously orchestrates complex multi-scale workflows across diverse methods, including density functional theory, machine learning potentials, molecul",
+"has_code": false
+},
+{
+"id": "arXiv:2601.20996",
+"title": "MADE: Benchmark Environments for Closed-Loop Materials Discovery",
+"url": "http://arxiv.org/abs/2601.20996v1",
+"summary": "Existing benchmarks for computational materials discovery primarily evaluate static predictive tasks or isolated computational sub-tasks. While valuable, these evaluations neglect the inherently iterative and adaptive nature of scientific discovery. We introduce MAterials Discovery Environments (MADE), a novel framework for benchmarking end-to-end autonomous materials discovery pipelines. MADE simulates closed-loop discovery campaigns in which an agent or algorithm proposes, evaluates, and refines candidate materials under a constrained oracle budget, capturing the sequential and resource-limi",
+"has_code": true
+},
+{
+"id": "arXiv:2601.20833",
+"title": "Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives",
+"url": "http://arxiv.org/abs/2601.20833v1",
+"summary": "Autonomous scientific discovery with large language model (LLM)-based agents has recently made substantial progress, demonstrating the ability to automate end-to-end research workflows. However, existing systems largely rely on runtime-centric execution paradigms, repeatedly reading, summarizing, and reasoning over large volumes of scientific literature online. This on-the-spot computation strategy incurs high computational cost, suffers from context window limitations, and often leads to brittle reasoning and hallucination. We propose Idea2Story, a pre-computation-driven framework for autonom",
+"has_code": true
+},
+{
+"id": "arXiv:2601.18081",
+"title": "DRPG (Decompose, Retrieve, Plan, Generate): An Agentic Framework for Academic Rebuttal",
+"url": "http://arxiv.org/abs/2601.18081v2",
+"summary": "Despite the growing adoption of large language models (LLMs) in scientific research workflows, automated support for academic rebuttal, a crucial step in academic communication and peer review, remains largely underexplored. Existing approaches typically rely on off-the-shelf LLMs or simple pipelines, which struggle with long-context understanding and often fail to produce targeted and persuasive responses. In this paper, we propose DRPG, an agentic framework for automatic academic rebuttal generation that operates through four steps: Decompose reviews into atomic concerns, Retrieve relevant e",
+"has_code": true
+},
+{
+"id": "arXiv:2601.17596",
+"title": "Learning to Ideate for Machine Learning Engineering Agents",
+"url": "http://arxiv.org/abs/2601.17596v1",
+"summary": "Existing machine learning engineering (MLE) agents struggle to iteratively optimize their implemented algorithms for effectiveness. To address this, we introduce MLE-Ideator, a dual-agent framework that separates ideation from implementation. In our system, an implementation agent can request strategic help from a dedicated Ideator. We show this approach is effective in two ways. First, in a training-free setup, our framework significantly outperforms implementation-only agent baselines on MLE-Bench. Second, we demonstrate that the Ideator can be trained with reinforcement learning (RL) to gen",
+"has_code": false
+},
+{
+"id": "arXiv:2601.16282",
+"title": "Generating Literature-Driven Scientific Theories at Scale",
+"url": "http://arxiv.org/abs/2601.16282v1",
+"summary": "Contemporary automated scientific discovery has focused on agents for generating scientific experiments, while systems that perform higher-level scientific activities such as theory building remain underexplored. In this work, we formulate the problem of synthesizing theories consisting of qualitative and quantitative laws from large corpora of scientific literature. We study theory generation at scale, using 13.7k source papers to synthesize 2.9k theories, examining how generation using literature-grounding versus parametric knowledge, and accuracy-focused versus novelty-focused generation ob",
+"has_code": false
+},
+{
+"id": "arXiv:2601.13508",
+"title": "Autonomous computational catalysis through an agentic research system",
+"url": "http://arxiv.org/abs/2601.13508v4",
+"summary": "Autonomous agents are beginning to transform scientific research from tool-assisted workflows toward self-sustaining discovery processes. Computational catalysis provides a representative challenge, as catalyst discovery requires high-level questions to be translated into coordinated model construction, atomistic simulation, mechanistic analysis, and iterative design across multiple scales. Here we introduce CatMaster, a catalysis-native agentic research system that recasts computational catalysis as a low-barrier virtual ecosystem for autonomous research. CatMaster maintains an evolving resea",
+"has_code": false
+},
+{
+"id": "arXiv:2601.12542",
+"title": "Rethinking the AI Scientist: Interactive Multi-Agent Workflows for Scientific Discovery",
+"url": "http://arxiv.org/abs/2601.12542v2",
+"summary": "Artificial intelligence systems for scientific discovery have demonstrated remarkable potential, yet existing approaches remain largely proprietary and operate in batch-processing modes requiring hours per research cycle, precluding real-time researcher guidance. This paper introduces Deep Research, a multi-agent system enabling interactive scientific investigation with turnaround times measured in minutes. The architecture comprises specialized agents for planning, data analysis, literature search, and novelty detection, unified through a persistent world state that maintains context across i",
+"has_code": false
+},
+{
+"id": "arXiv:2601.10402",
+"title": "Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering",
+"url": "http://arxiv.org/abs/2601.10402v5",
+"summary": "The advancement of artificial intelligence toward agentic science is currently bottlenecked by the challenge of ultra-long-horizon autonomy, the ability to sustain strategic coherence and iterative correction over experimental cycles spanning days or weeks. While Large Language Models (LLMs) have demonstrated prowess in short-horizon reasoning, they are easily overwhelmed by execution details in the high-dimensional, delayed-feedback environments of real-world research, failing to consolidate sparse feedback into coherent long-term guidance. Here, we present ML-Master 2.0, an autonomous agent ",
+"has_code": false
+},
+{
+"id": "arXiv:2601.10029",
+"title": "PaperScout: An Autonomous Agent for Academic Paper Search with Process-Aware Sequence-Level Policy Optimization",
+"url": "http://arxiv.org/abs/2601.10029v2",
+"summary": "Academic paper search is a fundamental task in scientific research, yet most existing approaches rely on rigid, predefined workflows that struggle with complex, conditional queries. To address this limitation, we propose PaperScout, an autonomous agent that reformulates paper search as a sequential decision-making process. Unlike static workflows, PaperScout dynamically decides whether, when, and how to invoke search and expand tools based on accumulated retrieval context. However, training such agents presents a fundamental challenge: standard reinforcement learning methods, typically designe",
+"has_code": false
+},
+{
+"id": "arXiv:2601.04878",
+"title": "Higher-Order Knowledge Representations for Agentic Scientific Reasoning",
+"url": "http://arxiv.org/abs/2601.04878v1",
+"summary": "Scientific inquiry requires systems-level reasoning that integrates heterogeneous experimental data, cross-domain knowledge, and mechanistic evidence into coherent explanations. While Large Language Models (LLMs) offer inferential capabilities, they often depend on retrieval-augmented contexts that lack structural depth. Traditional Knowledge Graphs (KGs) attempt to bridge this gap, yet their pairwise constraints fail to capture the irreducible higher-order interactions that govern emergent physical behavior. To address this, we introduce a methodology for constructing hypergraph-based knowled",
+"has_code": true
+},
+{
+"id": "arXiv:2601.04770",
+"title": "SciIF: Benchmarking Scientific Instruction Following Towards Rigorous Scientific Intelligence",
+"url": "http://arxiv.org/abs/2601.04770v2",
+"summary": "As large language models (LLMs) transition from general knowledge retrieval to complex scientific discovery, their evaluation standards must also incorporate the rigorous norms of scientific inquiry. Existing benchmarks exhibit a critical blind spot: general instruction-following metrics focus on superficial formatting, while domain-specific scientific benchmarks assess only final-answer correctness, often rewarding models that arrive at the right result with the wrong reasons. To address this gap, we introduce scientific instruction following: the capability to solve problems while strictly a",
+"has_code": false
+},
+{
+"id": "arXiv:2601.03436",
+"title": "MARVEL: A Multi Agent-based Research Validator and Enabler using Large Language Models",
+"url": "http://arxiv.org/abs/2601.03436v1",
+"summary": "We present MARVEL (https://ligogpt.mit.edu/marvel), a locally deployable, open-source framework for domain-aware question answering and assisted scientific research. It is designed to address the increasing demands of a digital assistant for scientific groups that can read highly technical data, cite precisely, and operate within authenticated networks. MARVEL combines a fast path for straightforward queries with a more deliberate DeepSearch mode that integrates retrieval-augmented generation and Monte Carlo Tree Search. It explores complementary subqueries, allocates more compute to promising",
+"has_code": false
+},
+{
+"id": "arXiv:2601.03315",
+"title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+"url": "http://arxiv.org/abs/2601.03315v1",
+"summary": "We report a case study of four end-to-end attempts to autonomously generate ML research papers using a pipeline of six LLM agents mapped to stages of the scientific workflow. Of these four, three attempts failed during implementation or evaluation. One completed the pipeline and was accepted to Agents4Science 2025, an experimental inaugural venue that required AI systems as first authors, passing both human and multi-AI review. From these attempts, we document six recurring failure modes: bias toward training data defaults, implementation drift under execution pressure, memory and context degr",
+"has_code": true
+},
+{
+"id": "arXiv:2601.01118",
+"title": "ScienceDB AI: An LLM-Driven Agentic Recommender System for Large-Scale Scientific Data Sharing Services",
+"url": "http://arxiv.org/abs/2601.01118v1",
+"summary": "The rapid growth of AI for Science (AI4S) has underscored the significance of scientific datasets, leading to the establishment of numerous national scientific data centers and sharing platforms. Despite this progress, efficiently promoting dataset sharing and utilization for scientific research remains challenging. Scientific datasets contain intricate domain-specific knowledge and contexts, rendering traditional collaborative filtering-based recommenders inadequate. Recent advances in Large Language Models (LLMs) offer unprecedented opportunities to build conversational agents capable of dee",
+"has_code": false
+},
+{
+"id": "arXiv:2601.11578",
+"title": "Multi-Agent LLMs for Generating Research Limitations",
+"url": "http://arxiv.org/abs/2601.11578v2",
+"summary": "Identifying and articulating limitations is essential for transparent and rigorous scientific research. However, zero-shot large language models (LLMs) approach often produce superficial or general limitation statements (e.g., dataset bias or generalizability). They usually repeat limitations reported by authors without looking at deeper methodological issues and contextual gaps. This problem is made worse because many authors disclose only partial or trivial limitations. We propose, a multi-agent LLM framework for generating substantive limitations. It integrates OpenReview comments and autho",
+"has_code": false
+},
+{
+"id": "arXiv:2512.24189",
+"title": "SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents",
+"url": "http://arxiv.org/abs/2512.24189v1",
+"summary": "We introduce SCP: the Science Context Protocol, an open-source standard designed to accelerate discovery by enabling a global network of autonomous scientific agents. SCP is built on two foundational pillars: (1) Unified Resource Integration: At its core, SCP provides a universal specification for describing and invoking scientific resources, spanning software tools, models, datasets, and physical instruments. This protocol-level standardization enables AI agents and applications to discover, call, and compose capabilities seamlessly across disparate platforms and institutional boundaries. (2)",
+"has_code": false
+},
+{
+"id": "arXiv:2512.23880",
+"title": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
+"url": "http://arxiv.org/abs/2512.23880v2",
+"summary": "Large language model (LLM) agents currently depend on predefined tools or early-stage tool generation, limiting their adaptability and scalability to complex scientific tasks. We introduce CASCADE, a self-evolving agentic framework representing an early instantiation of the transition from \"LLM + tool use\" to \"LLM + skill acquisition\". CASCADE enables agents to master complex external tools and codify knowledge through two meta-skills: continuous learning via web search, code extraction, and memory utilization; self-reflection via introspection, knowledge graph exploration, and others. We eval",
+"has_code": false
+},
+{
+"id": "arXiv:2512.22650",
+"title": "Scaling Unverifiable Rewards: A Case Study on Visual Insights",
+"url": "http://arxiv.org/abs/2512.22650v1",
+"summary": "Large Language Model (LLM) agents can increasingly automate complex reasoning through Test-Time Scaling (TTS), iterative refinement guided by reward signals. However, many real-world tasks involve multi-stage pipeline whose final outcomes lack verifiable rewards or sufficient data to train robust reward models, making judge-based refinement prone to accumulate error over stages. We propose Selective TTS, a process-based refinement framework that scales inference across different stages in multi-agent pipeline, instead of repeated refinement over time by prior work. By distributing compute acro",
+"has_code": false
+},
+{
+"id": "arXiv:2512.21373",
+"title": "AInsteinBench: Benchmarking Coding Agents on Scientific Repositories",
+"url": "http://arxiv.org/abs/2512.21373v1",
+"summary": "We introduce AInsteinBench, a large-scale benchmark for evaluating whether large language model (LLM) agents can operate as scientific computing development agents within real research software ecosystems. Unlike existing scientific reasoning benchmarks which focus on conceptual knowledge, or software engineering benchmarks that emphasize generic feature implementation and issue resolving, AInsteinBench evaluates models in end-to-end scientific development settings grounded in production-grade scientific repositories. The benchmark consists of tasks derived from maintainer-authored pull reques",
+"has_code": false
+},
+{
+"id": "arXiv:2601.11560",
+"title": "DeepEvidence: Empowering Biomedical Discovery with Deep Knowledge Graph Research",
+"url": "http://arxiv.org/abs/2601.11560v1",
+"summary": "Biomedical knowledge graphs (KGs) encode vast, heterogeneous information spanning literature, genes, pathways, drugs, diseases, and clinical trials, but leveraging them collectively for scientific discovery remains difficult. Their structural differences, continual evolution, and limited cross-resource alignment require substantial manual integration, limiting the depth and scale of knowledge exploration. We introduce DeepEvidence, an AI-agent framework designed to perform Deep Research across various heterogeneous biomedical KGs. Unlike generic Deep Research systems that rely primarily on int",
+"has_code": false
+},
+{
+"id": "arXiv:2512.19458",
+"title": "An Agentic Framework for Autonomous Materials Computation",
+"url": "http://arxiv.org/abs/2512.19458v1",
+"summary": "Large Language Models (LLMs) have emerged as powerful tools for accelerating scientific discovery, yet their static knowledge and hallucination issues hinder autonomous research applications. Recent advances integrate LLMs into agentic frameworks, enabling retrieval, reasoning, and tool use for complex scientific workflows. Here, we present a domain-specialized agent designed for reliable automation of first-principles materials computations. By embedding domain expertise, the agent ensures physically coherent multi-step workflows and consistently selects convergent, well-posed parameters, the",
+"has_code": false
+},
+{
+"id": "arXiv:2602.03849",
+"title": "HybridQuestion: Human-AI Collaboration for Identifying High-Impact Research Questions",
+"url": "http://arxiv.org/abs/2602.03849v1",
+"summary": "The \"AI Scientist\" paradigm is transforming scientific research by automating key stages of the research process, from idea generation to scholarly writing. This shift is expected to accelerate discovery and expand the scope of scientific inquiry. However, a key question remains unclear: can AI scientists identify meaningful research questions? While Large Language Models (LLMs) have been applied successfully to task-specific ideation, their potential to conduct strategic, long-term assessments of past breakthroughs and future questions remains largely unexplored. To address this gap, we explo",
+"has_code": false
+},
+{
+"id": "arXiv:2512.16447",
+"title": "Towards AI-Supported Research: a Vision of the TIB AIssistant",
+"url": "http://arxiv.org/abs/2512.16447v1",
+"summary": "The rapid advancements in Generative AI and Large Language Models promise to transform the way research is conducted, potentially offering unprecedented opportunities to augment scholarly workflows. However, effectively integrating AI into research remains a challenge due to varying domain requirements, limited AI literacy, the complexity of coordinating tools and agents, and the unclear accuracy of Generative AI in research. We present the vision of the TIB AIssistant, a domain-agnostic human-machine collaborative platform designed to support researchers across disciplines in scientific disco",
+"has_code": false
+},
+{
+"id": "arXiv:2512.16214",
+"title": "PDE-Agent: A toolchain-augmented multi-agent framework for PDE solving",
+"url": "http://arxiv.org/abs/2512.16214v2",
+"summary": "Solving Partial Differential Equations (PDEs) is a cornerstone of engineering and scientific research. Traditional methods for PDE solving are cumbersome, relying on manual setup and domain expertise. While Physics-Informed Neural Network (PINNs) introduced end-to-end neural network-based solutions, and frameworks like DeepXDE further enhanced automation, these approaches still depend on expert knowledge and lack full autonomy. In this work, we frame PDE solving as tool invocation via LLM-driven agents and introduce PDE-Agent, the first toolchain-augmented multi-agent collaboration framework, ",
+"has_code": false
+},
+{
+"id": "doi:10.1007/s11704-024-40231-1",
+"title": "A survey on large language model based autonomous agents",
+"url": "https://doi.org/10.1007/s11704-024-40231-1",
+"summary": "Abstract Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated environments, which diverges significantly from human learning processes, and makes the agents hard to achieve human-like decisions. Recently, through the acquisition of vast amounts of Web knowledge, large language models (LLMs) have shown potential in human-level intelligence, leading to a surge in research on LLM-based autonomous agents. In this paper, we present a comprehensive survey of these studies, del",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2408.06292",
+"title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+"url": "https://doi.org/10.48550/arxiv.2408.06292",
+"summary": "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to human scientists, e.g. for brainstorming ideas, writing code, or prediction tasks, they still conduct only a small part of the scientific process. This paper presents the first comprehensive framework for fully automatic scientific discovery, enabling frontier large language models to perform research independently and communicate their findings. We introduce The AI Scientist, which ",
+"has_code": true
+},
+{
+"id": "doi:10.1038/s41586-025-09442-9",
+"title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+"url": "https://doi.org/10.1038/s41586-025-09442-9",
+"summary": "",
+"has_code": true
+},
+{
+"id": "doi:10.1101/2025.05.30.656746",
+"title": "Biomni: A General-Purpose Biomedical AI Agent",
+"url": "https://doi.org/10.1101/2025.05.30.656746",
+"summary": "Biomedical research underpins progress in our understanding of human health and disease, drug discovery, and clinical care. However, with the growth of complex lab experiments, large datasets, many analytical tools, and expansive literature, biomedical research is increasingly constrained by repetitive and fragmented workflows that slow discovery and limit innovation, underscoring the need for a fundamentally new way to scale scientific expertise. Here, we introduce Biomni, a general-purpose biomedical AI agent designed to autonomously execute a wide spectrum of research tasks across diverse b",
+"has_code": false
+},
+{
+"id": "doi:10.1101/2024.11.11.623004",
+"title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+"url": "https://doi.org/10.1101/2024.11.11.623004",
+"summary": "Abstract Science frequently benefits from teams of interdisciplinary researchers. However, most scientists don\u2019t have access to experts from multiple fields. Fortunately, large language models (LLMs) have recently shown an impressive ability to aid researchers across diverse domains by answering scientific questions. Here, we expand the capabilities of LLMs for science by introducing the Virtual Lab, an AI-human research collaboration to perform sophisticated, interdisciplinary science research. The Virtual Lab consists of an LLM principal investigator agent guiding a team of LLM agents with d",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2312.07559",
+"title": "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
+"url": "https://doi.org/10.48550/arxiv.2312.07559",
+"summary": "Large Language Models (LLMs) generalize well across language tasks, but suffer from hallucinations and uninterpretability, making it difficult to assess their accuracy without ground-truth. Retrieval-Augmented Generation (RAG) models have been proposed to reduce hallucinations and provide provenance for how an answer was generated. Applying such models to the scientific literature may enable large-scale, systematic processing of scientific knowledge. We present PaperQA, a RAG agent for answering questions over the scientific literature. PaperQA is an agent that performs information retrieval a",
+"has_code": false
+},
+{
+"id": "doi:10.1002/adma.202413523",
+"title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi\u2010Agent Intelligent Graph Reasoning",
+"url": "https://doi.org/10.1002/adma.202413523",
+"summary": "A key challenge in artificial intelligence (AI) is the creation of systems capable of autonomously advancing scientific understanding by exploring novel domains, identifying complex patterns, and uncovering previously unseen connections in vast scientific data. In this work, SciAgents, an approach that leverages three core concepts is presented: (1) large-scale ontological knowledge graphs to organize and interconnect diverse scientific concepts, (2) a suite of large language models (LLMs) and data retrieval tools, and (3) multi-agent systems with in-situ learning capabilities. Applied to biol",
+"has_code": false
+},
+{
+"id": "doi:10.1101/2025.04.03.646459",
+"title": "SpatialAgent: An autonomous AI agent for spatial biology",
+"url": "https://doi.org/10.1101/2025.04.03.646459",
+"summary": "Abstract Advances in AI are transforming scientific discovery, yet spatial biology, a field that deciphers the molecular organization within tissues, remains constrained by labor-intensive workflows. Here, we present SpatialAgent, a fully autonomous AI agent dedicated for spatial-biology research. SpatialAgent integrates large language models with dynamic tool execution and adaptive reasoning. SpatialAgent spans the entire research pipeline, from experimental design to multimodal data analysis and hypothesis generation. Tested on multiple datasets comprising two million cells from human brain,",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2501.04227",
+"title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+"url": "https://doi.org/10.48550/arxiv.2501.04227",
+"summary": "Historically, scientific discovery has been a lengthy and costly process, demanding substantial time and resources from initial conception to final results. To accelerate scientific discovery, reduce research costs, and improve research quality, we introduce Agent Laboratory, an autonomous LLM-based framework capable of completing the entire research process. This framework accepts a human-provided research idea and progresses through three stages--literature review, experimentation, and report writing to produce comprehensive research outputs, including a code repository and a research report",
+"has_code": false
+},
+{
+"id": "doi:10.1002/advs.202407094",
+"title": "An AI Agent for Fully Automated Multi\u2010Omic Analyses",
+"url": "https://doi.org/10.1002/advs.202407094",
+"summary": "With the fast-growing and evolving omics data, the demand for streamlined and adaptable tools to handle bioinformatics analysis continues to grow. In response to this need, Automated Bioinformatics Analysis (AutoBA) is introduced, an autonomous AI agent designed explicitly for fully automated multi-omic analyses based on large language models (LLMs). AutoBA simplifies the analytical process by requiring minimal user input while delivering detailed step-by-step plans for various bioinformatics tasks. AutoBA's unique capacity to self-design analysis processes based on input data variations furth",
+"has_code": false
+},
+{
+"id": "doi:10.1038/s41540-021-00189-3",
+"title": "Nobel Turing Challenge: creating the engine for scientific discovery",
+"url": "https://doi.org/10.1038/s41540-021-00189-3",
+"summary": "Scientific discovery has long been one of the central driving forces in our civilization. It uncovered the principles of the world we live in, and enabled us to invent new technologies reshaping our society, cure diseases, explore unknown new frontiers, and hopefully lead us to build a sustainable society. Accelerating the speed of scientific discovery is therefore one of the most important endeavors. This requires an in-depth understanding of not only the subject areas but also the nature of scientific discoveries themselves. In other words, the \"science of science\" needs to be established, a",
+"has_code": false
+},
+{
+"id": "doi:10.1609/aimag.v37i1.2642",
+"title": "Artificial Intelligence to Win the Nobel Prize and Beyond: Creating the Engine for Scientific Discovery",
+"url": "https://doi.org/10.1609/aimag.v37i1.2642",
+"summary": "This article proposes a new grand challenge for AI: to develop an AI system that can make major scientific discoveries in biomedical sciences and that is worthy of a Nobel Prize. There are a series of human cognitive limitations that prevent us from making accelerated scientific discoveries, particularity in biomedical sciences. As a result, scientific discoveries are left at the level of a cottage industry. AI systems can transform scientific discoveries into highly efficient practices, thereby enabling us to expand our knowledge in unprecedented ways. Such systems may out\u2010compute all possibl",
+"has_code": false
+},
+{
+"id": "doi:10.1039/d4sc03921a",
+"title": "A review of large language models and autonomous agents in chemistry",
+"url": "https://doi.org/10.1039/d4sc03921a",
+"summary": "Large language models (LLMs) have emerged as powerful tools in chemistry, significantly impacting molecule design, property prediction, and synthesis optimization. This review highlights LLM capabilities in these domains and their potential to accelerate scientific discovery through automation. We also review LLM-based autonomous agents: LLMs with a broader set of tools to interact with their surrounding environment. These agents perform diverse tasks such as paper scraping, interfacing with automated laboratories, and synthesis planning. As agents are an emerging topic, we extend the scope of",
+"has_code": true
+},
+{
+"id": "doi:10.3389/frai.2025.1649155",
+"title": "AI, agentic models and lab automation for scientific discovery \u2014 the beginning of scAInce",
+"url": "https://doi.org/10.3389/frai.2025.1649155",
+"summary": "Until recently, the conversation about generative artificial intelligence in science revolved around the textual prowess of large language models such as GPT-3.5 and the promise that they might one day draft a decent literature review. Since then, progress has been nothing short of breathtaking. We now find ourselves in the era of multimodal, agentic systems that listen, see, speak and act, orchestrating cloud software and physical laboratory hardware with a fluency that would have sounded speculative in early 2023. In this review, I merge the substance of our 2024 white paper for the World Ec",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2304.05332",
+"title": "Emergent autonomous scientific research capabilities of large language models",
+"url": "https://doi.org/10.48550/arxiv.2304.05332",
+"summary": "Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming. Extreme scaling and reinforcement learning from human feedback have significantly improved the quality of generated text, enabling these models to perform various tasks and reason about their choices. In this paper, we present an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments. We showcase the Agent's scient",
+"has_code": false
+},
+{
+"id": "doi:10.18653/v1/2024.emnlp-main.70",
+"title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+"url": "https://doi.org/10.18653/v1/2024.emnlp-main.70",
+"summary": "Peer review is fundamental to the integrity and advancement of scientific publication.Traditional methods of peer review analyses often rely on exploration and statistics of existing peer review data, which do not adequately address the multivariate nature of the process, account for the latent variables, and are further constrained by privacy concerns due to the sensitive nature of the data.We introduce AGENTREVIEW, the first large language model (LLM) based peer review simulation framework, which effectively disentangles the impacts of multiple latent factors and addresses the privacy issue.",
+"has_code": true
+},
+{
+"id": "doi:10.1609/aaai.v39i27.35084",
+"title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+"url": "https://doi.org/10.1609/aaai.v39i27.35084",
+"summary": "Scientific discovery is a complex cognitive process that has driven human knowledge and technological progress for centuries. While artificial intelligence (AI) has made significant advances in automating aspects of scientific reasoning, simulation, and experimentation, we still lack integrated AI systems capable of performing autonomous long-term scientific research and discovery. This paper examines the current state of AI for scientific discovery, highlighting recent progress in large language models and other AI techniques applied to scientific tasks. We then outline key challenges and pro",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2405.17631",
+"title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+"url": "https://doi.org/10.48550/arxiv.2405.17631",
+"summary": "Agents based on large language models have shown great potential in accelerating scientific discovery by leveraging their rich background knowledge and reasoning capabilities. In this paper, we introduce BioDiscoveryAgent, an agent that designs new experiments, reasons about their outcomes, and efficiently navigates the hypothesis space to reach desired solutions. We demonstrate our agent on the problem of designing genetic perturbation experiments, where the aim is to find a small subset out of many possible genes that, when perturbed, result in a specific phenotype (e.g., cell growth). Utili",
+"has_code": true
+},
+{
+"id": "doi:10.1063/5.0257555",
+"title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+"url": "https://doi.org/10.1063/5.0257555",
+"summary": "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI: the GPT-4o (GPT means Generative Pre-trained Transformer) and a chain-of-thought\u2013enabled o1 preview model. Both agents demonstrate success across multiple tasks. While the price of token with o1 model is six times as that of GPT-4o, it consistently exhibits superior performance in handling complex tasks, from zero-shot/few-shot case setup to boundary condition modifications, zero-shot turbulence model",
+"has_code": false
+},
+{
+"id": "doi:10.1038/s41578-025-00772-8",
+"title": "Large language models for reticular chemistry",
+"url": "https://doi.org/10.1038/s41578-025-00772-8",
+"summary": "",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2504.08066",
+"title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+"url": "https://doi.org/10.48550/arxiv.2504.08066",
+"summary": "AI is increasingly playing a pivotal role in transforming how scientific discoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic system capable of producing the first entirely AI generated peer-review-accepted workshop paper. This system iteratively formulates scientific hypotheses, designs and executes experiments, analyzes and visualizes data, and autonomously authors scientific manuscripts. Compared to its predecessor (v1, Lu et al., 2024 arXiv:2408.06292), The AI Scientist-v2 eliminates the reliance on human-authored code templates, generalizes effectively across dive",
+"has_code": true
+},
+{
+"id": "doi:10.18653/v1/2025.acl-long.1266",
+"title": "LLM Agents Making Agent Tools",
+"url": "https://doi.org/10.18653/v1/2025.acl-long.1266",
+"summary": "Georg W\u00f6lflein, Dyke Ferber, Daniel Truhn, Ognjen Arandjelovic, Jakob Nikolas Kather. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+"has_code": false
+},
+{
+"id": "doi:10.1016/j.ijpharm.2023.123741",
+"title": "The role of artificial intelligence in generating original scientific research",
+"url": "https://doi.org/10.1016/j.ijpharm.2023.123741",
+"summary": "Artificial intelligence (AI) is a revolutionary technology that is finding wide application across numerous sectors. Large language models (LLMs) are an emerging subset technology of AI and have been developed to communicate using human languages. At their core, LLMs are trained with vast amounts of information extracted from the internet, including text and images. Their ability to create human-like, expert text in almost any subject means they are increasingly being used as an aid to presentation, particularly in scientific writing. However, we wondered whether LLMs could go further, generat",
+"has_code": false
+},
+{
+"id": "doi:10.48550/arxiv.2402.18679",
+"title": "Data Interpreter: An LLM Agent For Data Science",
+"url": "https://doi.org/10.48550/arxiv.2402.18679",
+"summary": "Large Language Model (LLM)-based agents have shown effectiveness across many applications. However, their use in data science scenarios requiring solving long-term interconnected tasks, dynamic data adjustments and domain expertise remains challenging. Previous approaches primarily focus on individual tasks, making it difficult to assess the complete data science workflow. Moreover, they struggle to handle real-time changes in intermediate data and fail to adapt dynamically to evolving task dependencies inherent to data science problems. In this paper, we present Data Interpreter, an LLM-based",
+"has_code": true
+},
+{
+"id": "doi:10.1038/s42256-025-01110-x",
+"title": "Towards agentic science for advancing scientific discovery",
+"url": "https://doi.org/10.1038/s42256-025-01110-x",
+"summary": "",
+"has_code": false
+}
+]

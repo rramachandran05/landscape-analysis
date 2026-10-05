@@ -1,0 +1,19 @@
+{
+  "theme": "GeoAI Foundation Models",
+  "description": "Self-supervised / pretrained foundation models for satellite, aerial, or geospatial raster/vector data.",
+  "note": "Replace the entries below with HUMAN-VERIFIED labels for ~20–30 real resources from an actual collected manifest. `label` is the reference keep/drop decision; `dimensions` (optional) is an ideal row for the QR-2 spot-check. Keys are canonical ids exactly as they appear in the manifest.",
+  "resources": {
+    "arXiv:0000.00000": {
+      "label": "keep",
+      "dimensions": {
+        "Modality": "multispectral (Sentinel-2)",
+        "Pretraining objective": "masked autoencoder",
+        "Openness": "weights + code released",
+        "Contribution type": "model"
+      }
+    },
+    "github:example/not-a-fm": {
+      "label": "drop"
+    }
+  }
+}

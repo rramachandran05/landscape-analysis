@@ -1,0 +1,2183 @@
+{
+  "data_rows": [
+    {
+      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
+      "id": "arXiv:2606.07718",
+      "stages": [
+        "Process & Curate",
+        "Analyze"
+      ],
+      "why": "Evaluates coding agents on building real data-to-discovery pipelines for large neuroscience datasets.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Deterministic access to global viral sequence data enables robust agentic scientific discovery",
+      "id": "arXiv:2606.06749",
+      "stages": [
+        "Acquire/Collect",
+        "Discover/Reuse"
+      ],
+      "why": "Provides deterministic, reproducible programmatic retrieval of viral genome data for agents, reducing metadata/filtering errors.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "DeployBench: Benchmarking LLM Agents for Research Artifact Deployment",
+      "id": "arXiv:2606.05238",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Tests agents' ability to set up and reuse released research artifacts/datasets across toolchains.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Compass: Navigating Global Marine Lead Data Integration through Expert-Guided LLM Agent",
+      "id": "arXiv:2605.29966",
+      "stages": [
+        "Acquire/Collect",
+        "Process & Curate"
+      ],
+      "why": "Extracts and integrates buried marine-lead measurements from unstructured papers into usable structured data.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AIBuildAI-2: A Knowledge-Enhanced Agent for Automatically Building AI Models",
+      "id": "arXiv:2605.27873",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Builds ML models over data automatically, lowering the barrier to data-driven modeling.",
+      "impact": 5,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+      "id": "arXiv:2605.22878",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Structures fragmented knowledge into a graph to help agents discover and reuse interconnected scientific resources.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Towards Self-Evolving Agentic Literature Retrieval",
+      "id": "arXiv:2605.14306",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Helps discover relevant papers/resources with authenticity-checked, ranked recommendations.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
+      "id": "arXiv:2605.18854",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Compares memory-condensation strategies to keep long-running data-discovery coding agents within context limits.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "CVEvolve: Autonomous Algorithm Discovery for Unstructured Scientific Data Processing",
+      "id": "arXiv:2605.11359",
+      "stages": [
+        "Process & Curate",
+        "Analyze"
+      ],
+      "why": "Zero-code agentic harness that discovers task-specific algorithms for noisy/sparse scientific data processing.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "BioResearcher: Scenario-Guided Multi-Agent for Translational Medicine",
+      "id": "arXiv:2605.05985",
+      "stages": [
+        "Process & Curate",
+        "Analyze"
+      ],
+      "why": "Combines heterogeneous biomedical sources while preserving identifiers, uncertainty, and retrievable provenance.",
+      "impact": 5,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+      "id": "arXiv:2605.02092",
+      "stages": [
+        "Acquire/Collect",
+        "Analyze"
+      ],
+      "why": "Provides specialized spatial data acquisition and analysis skills for end-to-end spatial data science.",
+      "impact": 5,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific Data",
+      "id": "arXiv:2604.26645",
+      "stages": [
+        "Quality/Validate"
+      ],
+      "why": "Agentic system that scalably evaluates AI-readiness of heterogeneous scientific datasets via Sci-TQA2 principles.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "id": "arXiv:2604.25256",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Evaluates agents at finding and discovering the right resources for a research problem.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "ClimAgent: LLM as Agents for Autonomous Open-ended Climate Science Analysis",
+      "id": "arXiv:2604.16922",
+      "stages": [
+        "Analyze",
+        "Process & Curate"
+      ],
+      "why": "Automates analysis over heterogeneous multi-scale climate datasets and analytical tools.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors",
+      "id": "arXiv:2604.14615",
+      "stages": [
+        "Analyze",
+        "Quality/Validate"
+      ],
+      "why": "Converts continuous wearable signals into validated clinically actionable biomarkers via adversarial validation.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery",
+      "id": "arXiv:2604.08491",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Turns data figures into queryable artifacts for deeper agent-driven data analysis.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "Towards the AI Historian: Agentic Information Extraction from Primary Sources",
+      "id": "arXiv:2604.03553",
+      "stages": [
+        "Acquire/Collect",
+        "Process & Curate"
+      ],
+      "why": "Converts image scans of primary sources into structured data via adaptable natural-language-driven extraction.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SASAV: Self-Directed Agent for Scientific Analysis and Visualization",
+      "id": "arXiv:2604.03406",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Automates analysis and visualization of scientific datasets with reduced human-in-the-loop iteration.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SpecXMaster Technical Report",
+      "id": "arXiv:2603.23101",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Agentic RL framework for automated NMR molecular spectral interpretation reducing human bias.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MITRA: An AI Assistant for Knowledge Retrieval in Physics Collaborations",
+      "id": "arXiv:2603.09800",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Helps researchers navigate and retrieve internal documentation to reuse prior analyses.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery",
+      "id": "arXiv:2603.07444",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Supports dataset-grounded empirical analysis with identification strategies for social-science data.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MACC: Multi-Agent Collaborative Competition for Scientific Exploration",
+      "id": "arXiv:2603.03780",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Generates and cross-checks diverse data-analysis approaches to improve reproducibility.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SciDER: Scientific Data-centric End-to-end Researcher",
+      "id": "arXiv:2603.01421",
+      "stages": [
+        "Process & Curate",
+        "Analyze"
+      ],
+      "why": "Autonomously processes raw, domain-specific multimodal experimental data within a research pipeline.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "InfEngine: A Self-Verifying and Self-Optimizing Intelligent Engine for Infrared Radiation Computing",
+      "id": "arXiv:2602.18985",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Automates infrared-radiation computation workflows for climate/remote-sensing data.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Orchestrating LLM Agents for Scientific Research: MCQ Generation and Evaluation",
+      "id": "arXiv:2602.18891",
+      "stages": [
+        "Acquire/Collect",
+        "Process & Curate",
+        "Quality/Validate"
+      ],
+      "why": "Agents extract questions from PDFs, construct corpora, and generate/evaluate artifacts like MCQs.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "DeepXiv-SDK: An Agentic Data Interface for Scientific Literature",
+      "id": "arXiv:2603.00084",
+      "stages": [
+        "Acquire/Collect",
+        "Discover/Reuse"
+      ],
+      "why": "An agentic data interface giving agents efficient, cost-aware retrieval of scientific literature.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Anagent For Enhancing Scientific Table & Figure Analysis",
+      "id": "arXiv:2602.10081",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Extracts and reasons over scientific tables/figures for downstream data analysis.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SciDataCopilot: An Agentic Data Preparation Framework for AGI-driven Scientific Discovery",
+      "id": "arXiv:2602.09132",
+      "stages": [
+        "Process & Curate",
+        "Quality/Validate"
+      ],
+      "why": "Agentic framework that prepares heterogeneous raw experimental data for use in scientific discovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PaperScout: An Autonomous Agent for Academic Paper Search",
+      "id": "arXiv:2601.10029",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Helps discover relevant papers for complex conditional queries beyond rigid workflows.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "ScienceDB AI: An LLM-Driven Agentic Recommender System for Large-Scale Scientific Data Sharing Services",
+      "id": "arXiv:2601.01118",
+      "stages": [
+        "Discover/Reuse",
+        "Publish/Share"
+      ],
+      "why": "Conversational agentic recommender that promotes discovery and reuse of scientific datasets on sharing platforms.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents",
+      "id": "arXiv:2512.24189",
+      "stages": [
+        "Discover/Reuse",
+        "Acquire/Collect"
+      ],
+      "why": "Universal spec for describing/invoking datasets and resources so agents can discover and acquire them.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "DeepEvidence: Empowering Biomedical Discovery with Deep Knowledge Graph Research",
+      "id": "arXiv:2601.11560",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Integrates and reasons over heterogeneous biomedical KGs to discover linked evidence.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Biomni: A General-Purpose Biomedical AI Agent",
+      "id": "doi:10.1101/2025.05.30.656746",
+      "stages": [
+        "Analyze",
+        "Process & Curate"
+      ],
+      "why": "Automates fragmented biomedical analytical workflows over large datasets and many tools.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
+      "id": "doi:10.48550/arxiv.2312.07559",
+      "stages": [
+        "Discover/Reuse"
+      ],
+      "why": "Performs information retrieval over the literature to surface and reuse relevant findings.",
+      "impact": 5,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SpatialAgent: An autonomous AI agent for spatial biology",
+      "id": "doi:10.1101/2025.04.03.646459",
+      "stages": [
+        "Analyze"
+      ],
+      "why": "Performs multimodal analysis of large spatial-biology datasets (millions of cells).",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+      "id": "doi:10.1002/advs.202407094",
+      "stages": [
+        "Analyze",
+        "Plan"
+      ],
+      "why": "Autonomous agent that self-designs step-by-step plans for multi-omic bioinformatics analyses from input data.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "Data Interpreter: An LLM Agent For Data Science",
+      "id": "doi:10.48550/arxiv.2402.18679",
+      "stages": [
+        "Analyze",
+        "Process & Curate",
+        "Plan"
+      ],
+      "why": "LLM agent handling long, interconnected data-science tasks with dynamic data adjustments and dependency adaptation.",
+      "impact": 7,
+      "feasibility": 8,
+      "has_code": true
+    }
+  ],
+  "science_rows": [
+    {
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "id": "arXiv:2606.13662",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Provides an engineered agent environment that lets agents propose, validate, and iterate scientific solutions against an optimizable metric.",
+      "impact": 7,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales",
+      "id": "arXiv:2606.12736",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "A benchmark for interactively evaluating AI research agents on real-world scientific scenarios.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills",
+      "id": "arXiv:2606.11897",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Converts uncertainty-rich lab notebooks into reusable agent skills to guide follow-up experiments and reasoning.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "StatefulDiscovery: Evidence-Calibrated Claim Formation in Open-Ended Scientific Discovery",
+      "id": "arXiv:2606.11851",
+      "stages": [
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Couples exploration trajectory with claim status so emerging claims stay within their evidential scope during analysis.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "id": "arXiv:2606.11150",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks agentic biosecurity-relevant capabilities to assess risk before deploying agents in biological research.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries",
+      "id": "arXiv:2606.10402",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Publication/Dissemination"
+      ],
+      "why": "An agent-native platform with open problems, verifiers, and leaderboards enabling distributed collective discovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents",
+      "id": "arXiv:2606.08234",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Weaves safety reasoning into every stage of the agent pipeline to prevent composed harmful tool-call sequences during experimentation.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
+      "id": "arXiv:2606.07718",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Shows agents can automate building scientific analysis pipelines that take experts days-to-months.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "FALSIFYBENCH: Evaluating Inductive Reasoning in LLMs with Rule Discovery Games",
+      "id": "arXiv:2606.04751",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Peer Review/Validation"
+      ],
+      "why": "Evaluates hypothesis generation and belief revision via rule-discovery games central to scientific reasoning.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "DeployBench: Benchmarking LLM Agents for Research Artifact Deployment",
+      "id": "arXiv:2606.05238",
+      "stages": [
+        "Peer Review/Validation",
+        "Publication/Dissemination"
+      ],
+      "why": "Benchmarks agents on deploying research artifacts from a fresh machine, key for reproducibility.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Self-Revising Discovery Systems for Science: A Categorical Framework for Agentic Artificial Intelligence",
+      "id": "arXiv:2606.01444",
+      "stages": [
+        "Analysis",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Provides a provenance-typed framework for verified regime transitions in agentic materials discovery.",
+      "impact": 5,
+      "feasibility": 7,
+      "has_code": true
+    },
+    {
+      "title": "Science Earth: Towards A Planet-Scale Operating System for AI-Native Scientific Discovery",
+      "id": "arXiv:2606.01316",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "A runtime that lets any capability (simulator, wet-lab robot, proof engine) compose to execute scientific work.",
+      "impact": 7,
+      "feasibility": 7,
+      "has_code": true
+    },
+    {
+      "title": "AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle",
+      "id": "arXiv:2605.31468",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review",
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis",
+        "Writing",
+        "Peer Review/Validation"
+      ],
+      "why": "Automates the full research lifecycle with persistent cross-project memory that improves procedures over time.",
+      "impact": 7,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "id": "arXiv:2605.30329",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark testing whether models can judge methodological viability of a research idea before spending resources.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
+      "id": "arXiv:2606.07591",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks end-to-end autonomous research across 40 tasks with expert rubrics for target-paper rediscovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+      "id": "arXiv:2605.28655",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Decentralized agent teams sustain parallel exploration and preserve failed-direction knowledge over long experiments.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "AIBuildAI-2: A Knowledge-Enhanced Agent for Automatically Building AI Models",
+      "id": "arXiv:2605.27873",
+      "stages": [
+        "Experiment Design",
+        "Analysis"
+      ],
+      "why": "Automatically designs architectures and training pipelines so natural scientists can build high-performing models.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "PRAXIS: Case-distilled and code-verified AI agents for biological research",
+      "id": "arXiv:2605.23169",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "A verifiable, auditable biological research agent using case-distilled long-term memory and code verification.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+      "id": "arXiv:2605.22878",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "A knowledge graph enabling topological reasoning over scientific literature beyond keyword/vector retrieval.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "EvoSci: A Bio-Inspired Multi-Agent Framework for the Evolution of Scientific Discovery",
+      "id": "arXiv:2605.24018",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Peer Review/Validation"
+      ],
+      "why": "Multi-role agents generate, evaluate, and refine research ideas via bio-inspired evolution and knowledge graphs.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+      "id": "arXiv:2605.20025",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Multi-agent pipeline with structured debate and cross-run experience accumulation for iterative research.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Qumus: Realization of An Embodied AI Quantum Material Experimentalist",
+      "id": "arXiv:2605.18407",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "An embodied robotic agent that autonomously executes quantum-materials experiments in a mini-laboratory.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MLReplicate: Benchmarking Autonomous Research Systems for Machine Learning Reproducibility",
+      "id": "arXiv:2605.16616",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks autonomous systems on reproducing ML papers, a proxy for validation/reproducibility.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Optimized Three-Dimensional Photovoltaic Structures with LLM guided Tree Search",
+      "id": "arXiv:2605.16191",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design"
+      ],
+      "why": "Couples a coding agent with LLM-driven tree search to autonomously generate novel scientific hypotheses/designs.",
+      "impact": 5,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "Beyond AI as Assistants: Toward Autonomous Discovery in Cosmology",
+      "id": "arXiv:2605.14791",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Analysis"
+      ],
+      "why": "Two agentic systems for cosmology combining code-evolution tree search and a multi-agent research lab.",
+      "impact": 5,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "Towards Self-Evolving Agentic Literature Retrieval",
+      "id": "arXiv:2605.14306",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Self-evolving agent produces relevance-scored, evidence-grounded paper rankings for literature search.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
+      "id": "arXiv:2605.13618",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Composes computational/experimental agent capabilities securely across institutions for materials research.",
+      "impact": 5,
+      "feasibility": 7,
+      "has_code": true
+    },
+    {
+      "title": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+      "id": "arXiv:2605.15227",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "Exposes self-driving-lab functions via MCP servers so AI agents can orchestrate physical experiments.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+      "id": "arXiv:2605.11117",
+      "stages": [
+        "Analysis",
+        "Experiment Design"
+      ],
+      "why": "Self-improving agent teams accumulate methodological experience to map physical problems to numerical solutions.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MaD Physics: Evaluating information seeking under constraints in physical environments",
+      "id": "arXiv:2605.10820",
+      "stages": [
+        "Experiment Design",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks planning measurements under physical/cost constraints, an underevaluated experiment-design ability.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MDGYM: Benchmarking AI Agents on Molecular Simulations",
+      "id": "arXiv:2605.08941",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark stress-testing agents on designing and executing molecular-dynamics computational workflows.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "When Does Critique Improve AI-Assisted Theoretical Physics? SCALAR",
+      "id": "arXiv:2605.06772",
+      "stages": [
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Actor-Critic-Judge loop providing iterative critique to improve research-level physics reasoning.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
+      "id": "arXiv:2605.06607",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Peer Review/Validation"
+      ],
+      "why": "Open-source CFD agent spanning literature-grounded ideation, validated execution, and vision-based physics verification.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "BioResearcher: Scenario-Guided Multi-Agent for Translational Medicine",
+      "id": "arXiv:2605.05985",
+      "stages": [
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Scenario-guided multi-agent system synthesizing literature, trials, and multi-omics with auditable provenance.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation",
+      "id": "arXiv:2605.04922",
+      "stages": [
+        "Ideation/Hypothesis"
+      ],
+      "why": "Graph-based multi-agent ideation that generates and traceably refines high-quality research ideas.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PARNESS: A Paper Harness for End-to-End Automated Scientific Research",
+      "id": "arXiv:2605.05258",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review",
+        "Data Collection/Experimentation",
+        "Writing"
+      ],
+      "why": "Dynamic-workflow harness with full-text indexing and cross-run knowledge accumulation for end-to-end research.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Experiment-as-Code Labs: A Declarative Stack for AI-Driven Scientific Discovery",
+      "id": "arXiv:2605.04375",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "A declarative stack letting agents control and explore real-world labs for physical experiments.",
+      "impact": 5,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+      "id": "arXiv:2605.02092",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Multi-agent autonomous research system purpose-built for GIScience with method selection and data acquisition.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning",
+      "id": "arXiv:2605.01489",
+      "stages": [
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Deep research agent trained on information-seeking for frontier scientific reasoning across heterogeneous sources.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output",
+      "id": "arXiv:2605.00557",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review"
+      ],
+      "why": "Operationalizes ideation as eight structured cognitive stages to produce more novel research output.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "id": "arXiv:2604.28158",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Captures how research methods emerge and build on one another so agents can reconstruct method evolution.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "End-to-end autonomous scientific discovery on a real optical platform",
+      "id": "arXiv:2604.27092",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "End-to-end agentic system performing autonomous discovery on a real physical optical system with evidence.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "id": "arXiv:2604.25256",
+      "stages": [
+        "Literature Review",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark for autonomous literature discovery including tracking target papers and acquiring evidence for claims.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Vibe Medicine: Redefining Biomedical Research Through Human-AI Co-Work",
+      "id": "arXiv:2604.23674",
+      "stages": [
+        "Analysis",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Human-AI co-work paradigm for biomedical pipelines across heterogeneous modalities and multi-step analyses.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "IntrAgent: An LLM Agent for Content-Grounded Information Retrieval through Literature Review",
+      "id": "arXiv:2604.22861",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Automates fine-grained, content-grounded information retrieval faithful to source literature.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
+      "id": "arXiv:2604.17406",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Self-evolving agent framework that iteratively refines hypotheses and accumulates knowledge from trial and error.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "ClimAgent: LLM as Agents for Autonomous Open-ended Climate Science Analysis",
+      "id": "arXiv:2604.16922",
+      "stages": [
+        "Analysis",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Autonomous agent for open-ended climate-science analysis handling multi-scale datasets and physical constraints.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+      "id": "arXiv:2604.15456",
+      "stages": [
+        "Literature Review",
+        "Peer Review/Validation"
+      ],
+      "why": "Deep research system with inspectable evidence-appraisal criteria for trustworthy biomedical synthesis.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+      "id": "arXiv:2604.15411",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark evaluating long-horizon autonomous exploration in frontier physics research.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "CoDaS: AI Co-Data-Scientist for Biomarker Discovery via Wearable Sensors",
+      "id": "arXiv:2604.14615",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Multi-agent system iterating hypothesis generation, statistical analysis, and adversarial validation for biomarker discovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MIND: AI Co-Scientist for Material Research",
+      "id": "arXiv:2604.13699",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Peer Review/Validation"
+      ],
+      "why": "Multi-agent framework for hypothesis refinement plus in-silico experimental verification and debate-based validation.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+      "id": "arXiv:2604.13346",
+      "stages": [
+        "Experiment Design"
+      ],
+      "why": "A specification/execution language giving agent workflows explicit, controllable control flow and state.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+      "id": "arXiv:2604.13180",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "Safe isolated agent framework with a self-assessing do-until loop for autonomous execution of scientific tasks.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Multi-Persona Debate System for Automated Scientific Hypothesis Generation",
+      "id": "arXiv:2605.23917",
+      "stages": [
+        "Ideation/Hypothesis"
+      ],
+      "why": "Literature-grounded multi-persona debate to generate actionable hypotheses in battery-materials research.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers",
+      "id": "arXiv:2604.11307",
+      "stages": [
+        "Literature Review",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark for multi-modal, multi-document scientific reasoning integrating text, tables, and figures across papers.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "COMPOSITE-Stem",
+      "id": "arXiv:2604.09836",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Expert-written STEM benchmark with rubric and LLM-jury grading to measure AI scientific reasoning.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Omakase: proactive assistance with actionable suggestions for evolving scientific research projects",
+      "id": "arXiv:2604.08898",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review"
+      ],
+      "why": "Proactively reasons about a researcher's evolving project context to surface concrete actionable suggestions.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Figures as Interfaces: Toward LLM-Native Artifacts for Scientific Discovery",
+      "id": "arXiv:2604.08491",
+      "stages": [
+        "Analysis",
+        "Writing"
+      ],
+      "why": "Reconceives figures as interactive LLM-native artifacts agents can reason over rather than static images.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "A Model Context Protocol Server for Quantum Execution in Hybrid Quantum-HPC Environments",
+      "id": "doi:10.1109/qcnc69040.2026.00145",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "MCP-based framework that lets AI scientists execute quantum algorithms and manage QPU/HPC resources.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "EpiBench: Benchmarking Multi-turn Research Workflows for Multimodal Agents",
+      "id": "arXiv:2604.05557",
+      "stages": [
+        "Literature Review",
+        "Peer Review/Validation"
+      ],
+      "why": "Episodic multi-turn benchmark assessing proactive search and multi-evidence integration over time.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "id": "arXiv:2604.05018",
+      "stages": [
+        "Writing",
+        "Literature Review"
+      ],
+      "why": "Transforms unstructured research materials into submission-ready manuscripts with synthesized reviews and visuals.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "OpenCLAW-P2P v7.0: Decentralized AI Peer Review",
+      "id": "arXiv:2604.19792",
+      "stages": [
+        "Peer Review/Validation",
+        "Publication/Dissemination"
+      ],
+      "why": "Decentralized platform where AI agents publish, peer-review, and score scientific papers with reference verification.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "SASAV: Self-Directed Agent for Scientific Analysis and Visualization",
+      "id": "arXiv:2604.03406",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Self-directed multimodal agent for scientific data analysis and visualization without per-dataset priors.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "A Multi-Agent Human-LLM Collaborative Framework for Closed-Loop Scientific Literature Summarization",
+      "id": "arXiv:2604.01452",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Multi-agent human-in-the-loop framework for structured, multi-step literature summarization and QA.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
+      "id": "arXiv:2604.00550",
+      "stages": [
+        "Analysis",
+        "Data Collection/Experimentation"
+      ],
+      "why": "A multi-modal agent operating system with robust tool-calling and sandboxing for life-science research.",
+      "impact": 5,
+      "feasibility": 7,
+      "has_code": true
+    },
+    {
+      "title": "Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations",
+      "id": "arXiv:2604.00149",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Peer Review/Validation"
+      ],
+      "why": "Self-correcting agent plus benchmark for reliable quantum many-body simulation that curbs hallucination.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Owl-AuraID 1.0: An Intelligent System for Autonomous Scientific Instrumentation and Scientific Data Analysis",
+      "id": "arXiv:2603.29828",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "GUI-native embodied agent operating instruments and analyzing data end-to-end like a human expert.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+      "id": "arXiv:2603.28986",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Auto-synthesizes task-specific multi-agent workflows via MCP tool discovery and refines them from feedback.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Towards a Medical AI Scientist",
+      "id": "arXiv:2603.28589",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Writing"
+      ],
+      "why": "Clinically grounded autonomous research framework for ideation, experimentation, and drafting in medicine.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "TianJi: An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science",
+      "id": "arXiv:2603.27738",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Autonomously drives numerical models to discover physical causal mechanisms in atmospheric science.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PRBench: End-to-end Paper Reproduction in Physics Research",
+      "id": "arXiv:2603.27646",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark requiring agents to reproduce published physics papers from methodology to matching results.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling",
+      "id": "arXiv:2603.27584",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Peer Review/Validation"
+      ],
+      "why": "Uses historical-case analogy and adversarial peer scrutiny to build and validate mathematical models.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Self-evolving AI agents for protein discovery and directed evolution",
+      "id": "arXiv:2603.27303",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Self-evolving multi-agent framework synthesizing workflows for protein discovery and directed evolution.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MolQuest: A Benchmark for Agentic Evaluation of Abductive Reasoning in Chemical Structure Elucidation",
+      "id": "arXiv:2603.25253",
+      "stages": [
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Agent benchmark for multi-step abductive reasoning in molecular structure elucidation with experimental interaction.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "SpecXMaster Technical Report",
+      "id": "arXiv:2603.23101",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Automates spectral interpretation as the bridge between matter structure and analysis in closed-loop discovery.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models",
+      "id": "arXiv:2603.22376",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Automates the full ranking-research pipeline from idea generation to code and GPU training with expert in loop.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Revisiting Gene Ontology Knowledge Discovery with Hierarchical Feature Selection and Virtual Study Group of AI Agents",
+      "id": "arXiv:2603.20132",
+      "stages": [
+        "Analysis",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Virtual study group of agents extracts ageing-related biological knowledge using hierarchical feature selection.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AI Scientist via Synthetic Task Scaling",
+      "id": "arXiv:2603.17216",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Synthetic environment pipeline that generates ML challenges to train research agents that learn from doing.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+      "id": "arXiv:2603.11515",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Coordinates specialized agents to launch and manage ensemble HPC simulations for large design-space exploration.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MITRA: An AI Assistant for Knowledge Retrieval in Physics Collaborations",
+      "id": "arXiv:2603.09800",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "RAG system answering context-aware questions over a large collaboration's internal documentation.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Epistemic Closure: Autonomous Mechanism Completion for Physically Consistent Simulation",
+      "id": "arXiv:2603.09756",
+      "stages": [
+        "Experiment Design",
+        "Peer Review/Validation"
+      ],
+      "why": "Neuro-symbolic supervisor that detects implicit physical assumptions to prevent physically invalid solvers.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "id": "arXiv:2603.08127",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Evolving multi-agent AI scientist that adapts from interaction history to avoid repeating failed experiments.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery",
+      "id": "arXiv:2603.07444",
+      "stages": [
+        "Experiment Design",
+        "Analysis"
+      ],
+      "why": "Multi-agent pipeline grounding economics research questions in datasets with human judgment for identification design.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution",
+      "id": "arXiv:2603.06739",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks agents on synthesizing execution environments for research repos, key to reproducibility.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MACC: Multi-Agent Collaborative Competition for Scientific Exploration",
+      "id": "arXiv:2603.03780",
+      "stages": [
+        "Analysis",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Multi-agent collaborative-competition scheme generating diverse, repeatable analytical approaches for reliability.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "APRES: An Agentic Paper Revision and Evaluation System",
+      "id": "arXiv:2603.03142",
+      "stages": [
+        "Writing",
+        "Peer Review/Validation"
+      ],
+      "why": "Uses LLMs to revise manuscripts and provide consistent peer-review-style feedback to improve them.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SciDER: Scientific Data-centric End-to-end Researcher",
+      "id": "arXiv:2603.01421",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Data-centric multi-agent system automating the full research lifecycle over raw domain-specific data.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "id": "arXiv:2604.09584",
+      "stages": [
+        "Experiment Design",
+        "Analysis"
+      ],
+      "why": "Couples multi-agent LLMs with latent foundation models to explore high-dimensional PDE simulation spaces.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "CiteAudit: A Benchmark for Verifying Scientific References in the LLM Era",
+      "id": "arXiv:2602.23452",
+      "stages": [
+        "Writing",
+        "Peer Review/Validation"
+      ],
+      "why": "Multi-agent pipeline that detects hallucinated/fabricated citations to safeguard citation integrity.",
+      "impact": 7,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Evaluating Stochasticity in Deep Research Agents",
+      "id": "arXiv:2602.23271",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Formalizes and measures run-to-run variability of deep research agents, important for trustworthy validation.",
+      "impact": 4,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "Grounding LLMs in Scientific Discovery via Embodied Actions",
+      "id": "arXiv:2602.20639",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "Turns scientific software into embodied agents with a tight perception-execution loop to catch runtime anomalies.",
+      "impact": 5,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "InfEngine: A Self-Verifying and Self-Optimizing Intelligent Engine for Infrared Radiation Computing",
+      "id": "arXiv:2602.18985",
+      "stages": [
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Self-verifying multi-agent engine for infrared radiation computing with solver-evaluator debugging.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "DeepInnovator: Triggering the Innovative Capabilities of LLMs",
+      "id": "arXiv:2602.18920",
+      "stages": [
+        "Ideation/Hypothesis"
+      ],
+      "why": "Training framework that triggers LLMs to autonomously generate novel and significant research ideas.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "DeepXiv-SDK: An Agentic Data Interface for Scientific Literature",
+      "id": "arXiv:2603.00084",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Lets research agents access literature more reliably during literature review, reducing brittle lookups.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "OR-Agent: Bridging Evolutionary Search and Structured Research for Automated Algorithm Discovery",
+      "id": "arXiv:2602.13769",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design"
+      ],
+      "why": "Tree-based multi-agent framework with structured hypothesis management and backtracking for algorithm discovery.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Towards Autonomous Mathematics Research",
+      "id": "arXiv:2602.10177",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Math research agent that iteratively generates, verifies, and revises long-horizon proofs in natural language.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Anagent For Enhancing Scientific Table & Figure Analysis",
+      "id": "arXiv:2602.10081",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Agent interpreting complex multimodal tables and figures and integrating evidence across sources.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Tiny Moves: Game-based Hypothesis Refinement",
+      "id": "arXiv:2602.09801",
+      "stages": [
+        "Ideation/Hypothesis"
+      ],
+      "why": "Symbolic game where agents refine a shared hypothesis via a fixed grammar of incremental reasoning moves.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
+      "id": "arXiv:2602.08990",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Analysis",
+        "Peer Review/Validation"
+      ],
+      "why": "Unified generation/verification/evolution architecture with long-horizon memory for end-to-end discovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Accelerating Social Science Research via Agentic Hypothesization and Experimentation",
+      "id": "arXiv:2602.07983",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Bayesian-optimization-inspired generator/experimenter loop for end-to-end social-science discovery.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents",
+      "id": "arXiv:2602.06855",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "20-task suite assessing agentic capability over the full research lifecycle without baseline code.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Principle-Evolvable Scientific Discovery via Uncertainty Minimization",
+      "id": "arXiv:2602.06448",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design"
+      ],
+      "why": "Treats discovery as Bayesian optimization that evolves underlying scientific principles to find novel phenomena.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+      "id": "arXiv:2604.09554",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Improved benchmark measuring AI systems' ability to perform meaningful biology research work.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Aster: Autonomous Scientific Discovery over 20x Faster Than Existing Methods",
+      "id": "arXiv:2602.07040",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Agent that iteratively improves a program to reach new state-of-the-art with far fewer evaluation iterations.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "DeltaEvolve: Accelerating Scientific Discovery through Momentum-Driven Evolution",
+      "id": "arXiv:2602.02919",
+      "stages": [
+        "Experiment Design",
+        "Analysis"
+      ],
+      "why": "Context-efficient evolutionary agent framework (EM-formulated) for automated science discovery.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "FIRE-Bench: Evaluating Agents on the Rediscovery of Scientific Insights",
+      "id": "arXiv:2602.02905",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark evaluating agents via verifiable rediscovery of known scientific insights.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+      "id": "arXiv:2602.01550",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Self-evolving Plan-and-CodeAct framework decoupling global planning from subtask tool execution.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "QUASAR: A Universal Autonomous System for Atomistic Simulation and a Benchmark of Its Capabilities",
+      "id": "arXiv:2602.00185",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Universal agent orchestrating multi-scale atomistic simulation workflows (DFT, MLPs, MD) for materials discovery.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MADE: Benchmark Environments for Closed-Loop Materials Discovery",
+      "id": "arXiv:2601.20996",
+      "stages": [
+        "Experiment Design",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark simulating closed-loop discovery campaigns under a constrained oracle budget.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives",
+      "id": "arXiv:2601.20833",
+      "stages": [
+        "Writing",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Pre-computation pipeline that turns research concepts into complete scientific narratives, reducing hallucination.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "DRPG: An Agentic Framework for Academic Rebuttal",
+      "id": "arXiv:2601.18081",
+      "stages": [
+        "Peer Review/Validation",
+        "Writing"
+      ],
+      "why": "Decompose-retrieve-plan-generate framework producing targeted, persuasive rebuttals to peer reviews.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Learning to Ideate for Machine Learning Engineering Agents",
+      "id": "arXiv:2601.17596",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design"
+      ],
+      "why": "Dual-agent system separating ideation from implementation, with an RL-trainable Ideator to optimize algorithms.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Generating Literature-Driven Scientific Theories at Scale",
+      "id": "arXiv:2601.16282",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review"
+      ],
+      "why": "Synthesizes qualitative/quantitative laws (theories) from large literature corpora at scale.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Autonomous computational catalysis through an agentic research system",
+      "id": "arXiv:2601.13508",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Catalysis-native agent translating high-level questions into model construction, simulation, and iterative design.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Rethinking the AI Scientist: Interactive Multi-Agent Workflows for Scientific Discovery",
+      "id": "arXiv:2601.12542",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Interactive multi-agent system (planning, analysis, search, novelty) with minute-scale turnaround and persistent world state.",
+      "impact": 6,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering",
+      "id": "arXiv:2601.10402",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Autonomous agent sustaining strategic coherence and iterative correction over very long ML experiment cycles.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PaperScout: An Autonomous Agent for Academic Paper Search",
+      "id": "arXiv:2601.10029",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "Reformulates paper search as sequential decision-making, dynamically invoking search/expand tools.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Higher-Order Knowledge Representations for Agentic Scientific Reasoning",
+      "id": "arXiv:2601.04878",
+      "stages": [
+        "Analysis",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Hypergraph knowledge representation capturing higher-order interactions for systems-level scientific reasoning.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "SciIF: Benchmarking Scientific Instruction Following Towards Rigorous Scientific Intelligence",
+      "id": "arXiv:2601.04770",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmark testing whether models follow rigorous scientific norms, not just produce right final answers.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "MARVEL: A Multi Agent-based Research Validator and Enabler using Large Language Models",
+      "id": "arXiv:2601.03436",
+      "stages": [
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Locally deployable RAG+MCTS framework for domain-aware QA and assisted research with precise citation.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "id": "arXiv:2601.03315",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "Documents six recurring failure modes of LLM research pipelines, informing validation of autonomous systems.",
+      "impact": 4,
+      "feasibility": 7,
+      "has_code": true
+    },
+    {
+      "title": "Multi-Agent LLMs for Generating Research Limitations",
+      "id": "arXiv:2601.11578",
+      "stages": [
+        "Writing",
+        "Peer Review/Validation"
+      ],
+      "why": "Multi-agent framework generating substantive methodological limitations from reviews and author content.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents",
+      "id": "arXiv:2512.24189",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Open protocol letting agents discover, call, and compose tools, models, datasets, and instruments across platforms.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
+      "id": "arXiv:2512.23880",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Self-evolving framework where agents acquire/codify skills for complex scientific tasks via continuous learning.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "Scaling Unverifiable Rewards: A Case Study on Visual Insights",
+      "id": "arXiv:2512.22650",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Process-based selective test-time-scaling that distributes compute across pipeline stages to reduce error accumulation.",
+      "impact": 4,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "AInsteinBench: Benchmarking Coding Agents on Scientific Repositories",
+      "id": "arXiv:2512.21373",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Peer Review/Validation"
+      ],
+      "why": "Benchmarks agents as scientific-computing developers within real production research repositories.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "DeepEvidence: Empowering Biomedical Discovery with Deep Knowledge Graph Research",
+      "id": "arXiv:2601.11560",
+      "stages": [
+        "Literature Review",
+        "Analysis"
+      ],
+      "why": "Agent performing deep research across heterogeneous biomedical knowledge graphs for discovery.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "An Agentic Framework for Autonomous Materials Computation",
+      "id": "arXiv:2512.19458",
+      "stages": [
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "Domain-specialized agent ensuring physically coherent multi-step first-principles materials computation workflows.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "HybridQuestion: Human-AI Collaboration for Identifying High-Impact Research Questions",
+      "id": "arXiv:2602.03849",
+      "stages": [
+        "Ideation/Hypothesis"
+      ],
+      "why": "Human-AI collaboration to identify meaningful, high-impact research questions from past breakthroughs.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "PDE-Agent: A toolchain-augmented multi-agent framework for PDE solving",
+      "id": "arXiv:2512.16214",
+      "stages": [
+        "Analysis",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Frames PDE solving as LLM-driven tool invocation, automating setup that previously needed expert knowledge.",
+      "impact": 5,
+      "feasibility": 3,
+      "has_code": false
+    },
+    {
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "id": "doi:10.48550/arxiv.2408.06292",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis",
+        "Writing",
+        "Peer Review/Validation"
+      ],
+      "why": "First end-to-end framework where an LLM ideates, codes experiments, analyzes, and writes papers autonomously.",
+      "impact": 8,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+      "id": "doi:10.1038/s41586-025-09442-9",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "LLM PI agent leading a team of agents to design experimentally validated SARS-CoV-2 nanobodies.",
+      "impact": 8,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "Biomni: A General-Purpose Biomedical AI Agent",
+      "id": "doi:10.1101/2025.05.30.656746",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis"
+      ],
+      "why": "General-purpose biomedical agent autonomously executing a wide spectrum of research tasks across domains.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+      "id": "doi:10.1101/2024.11.11.623004",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design"
+      ],
+      "why": "Interdisciplinary LLM PI+team paradigm conducting sophisticated research, validated on nanobody design.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
+      "id": "doi:10.48550/arxiv.2312.07559",
+      "stages": [
+        "Literature Review"
+      ],
+      "why": "RAG agent that answers questions over scientific literature with provenance to reduce hallucination.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning",
+      "id": "doi:10.1002/adma.202413523",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Literature Review"
+      ],
+      "why": "Multi-agent system over ontological knowledge graphs to uncover novel connections and generate hypotheses.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "SpatialAgent: An autonomous AI agent for spatial biology",
+      "id": "doi:10.1101/2025.04.03.646459",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis",
+        "Ideation/Hypothesis"
+      ],
+      "why": "Autonomous agent spanning experimental design to multimodal spatial-biology data analysis and hypothesis generation.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "id": "doi:10.48550/arxiv.2501.04227",
+      "stages": [
+        "Literature Review",
+        "Data Collection/Experimentation",
+        "Writing"
+      ],
+      "why": "Autonomous framework taking a human idea through literature review, experimentation, and report writing.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+      "id": "doi:10.1002/advs.202407094",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Automates multi-omic bioinformatics analysis with minimal user input.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "Emergent autonomous scientific research capabilities of large language models",
+      "id": "doi:10.48550/arxiv.2304.05332",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Intelligent agent system combining LLMs for autonomous design, planning, and execution of scientific experiments.",
+      "impact": 7,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+      "id": "doi:10.18653/v1/2024.emnlp-main.70",
+      "stages": [
+        "Peer Review/Validation"
+      ],
+      "why": "LLM-based peer-review simulation framework disentangling latent factors affecting review outcomes.",
+      "impact": 5,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+      "id": "doi:10.48550/arxiv.2405.17631",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Agent that designs genetic perturbation experiments and navigates the hypothesis space efficiently.",
+      "impact": 7,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+      "id": "doi:10.1063/5.0257555",
+      "stages": [
+        "Data Collection/Experimentation"
+      ],
+      "why": "RAG LLM agent that sets up and modifies OpenFOAM CFD simulations from few-shot prompts.",
+      "impact": 6,
+      "feasibility": 4,
+      "has_code": false
+    },
+    {
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "id": "doi:10.48550/arxiv.2504.08066",
+      "stages": [
+        "Ideation/Hypothesis",
+        "Experiment Design",
+        "Data Collection/Experimentation",
+        "Analysis",
+        "Writing"
+      ],
+      "why": "End-to-end agentic system using tree search to produce a peer-review-accepted workshop paper without code templates.",
+      "impact": 8,
+      "feasibility": 8,
+      "has_code": true
+    },
+    {
+      "title": "LLM Agents Making Agent Tools",
+      "id": "doi:10.18653/v1/2025.acl-long.1266",
+      "stages": [
+        "Experiment Design",
+        "Data Collection/Experimentation"
+      ],
+      "why": "Agents that autonomously create new tools, expanding the action space for research automation.",
+      "impact": 5,
+      "feasibility": 2,
+      "has_code": false
+    },
+    {
+      "title": "Data Interpreter: An LLM Agent For Data Science",
+      "id": "doi:10.48550/arxiv.2402.18679",
+      "stages": [
+        "Analysis"
+      ],
+      "why": "Automates end-to-end data-science analysis workflows adapting to evolving task dependencies.",
+      "impact": 6,
+      "feasibility": 8,
+      "has_code": true
+    }
+  ]
+}

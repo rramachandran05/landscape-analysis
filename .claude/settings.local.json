@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis/data/ai-agents-for-science-governance/_deep_input.json'\\)\\)[439]; print\\(json.dumps\\({k:d.get\\(k\\) for k in ['id','title','abstract','pdf','path','facet']}\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis/data/ai-agents-for-science-governance/_deep_input.json'\\)\\)[440]; print\\(json.dumps\\({k:d.get\\(k\\) for k in ['id','title','abstract','pdf','path','facet']}\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis/data/ai-agents-for-science-governance/_deep_input.json'\\)\\)[441]; print\\(json.dumps\\({k:d.get\\(k\\) for k in ['id','title','abstract','pdf','path','facet']}\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis/data/ai-agents-for-science-governance/_deep_input.json'\\)\\)[442]; print\\(json.dumps\\({k:d.get\\(k\\) for k in ['id','title','abstract','pdf','path','facet']}\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 data/ai-agents-for-science-governance/_gen_report.py)",
+      "Bash(chmod +x collect_data_management.sh)",
+      "Bash(./collect_data_management.sh)",
+      "Bash(cd \"/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis\" && sleep 25; echo \"=== log so far ===\" && cat /tmp/dm-collect.log 2>/dev/null | head -20 && echo \"\" && echo \"=== PDFs landing? ===\" && ls -1 data/ai-agents-for-data-management-raw 2>/dev/null | wc -l | tr -d ' ' && echo \"=== active python process? ===\" && ps aux | grep -E '[p]ython -m landscape' | wc -l | tr -d ' ')",
+      "Bash(python -)",
+      "Bash(grep -oiE '\\(BPMN|maDMP|machine-actionable|workflow|process|automat[a-z]*|RDA\\)[^<]{0,120}' \"doi_10.5281_zenodo.2607556.pdf\")",
+      "WebSearch",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:www.researchgate.net)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('agents4science/summaries.json'\\)\\);print\\(type\\(d\\)\\); k=list\\(d\\)[0] if isinstance\\(d,dict\\) else 0; print\\('len',len\\(d\\)\\); import pprint; pprint.pprint\\(d[k] if isinstance\\(d,dict\\) else d[0]\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis/data/_lifecycle_work/out_governance_b.json'\\)\\); print\\('data_rows', len\\(d['data_rows']\\)\\); print\\('science_rows', len\\(d['science_rows']\\)\\)\")",
+      "Bash(python3 -c \"import openpyxl; print\\('openpyxl ok', openpyxl.__version__\\)\")",
+      "Bash(python3)",
+      "Bash(cd \"/Users/rramacha/Documents/MyDocuments/My_Documents/My Documents/MyFiles/Areas/Code Workspace/python_landscape_analysis\" && mkdir -p useful-agents-list/_work && cp data/lifecycle-agent-mapping.xlsx data/lifecycle-agent-mapping.md useful-agents-list/ && cp data/_lifecycle_work/consolidated.json data/_lifecycle_work/out_*.json data/_lifecycle_work/agents4science.json data/_lifecycle_work/governance.json data/_lifecycle_work/data_management.json useful-agents-list/_work/ && echo \"=== useful-agents-list ===\" && ls -la useful-agents-list && echo \"=== _work ===\" && ls -la useful-agents-list/_work)"
+    ]
+  }
+}

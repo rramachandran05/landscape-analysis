@@ -1,0 +1,8 @@
+.DS_Store
+.env
+# 9GB of collected corpus data — too large for GitHub
+data/
+.landscape-cache/
+.pytest_cache/
+__pycache__/
+*.egg-info/

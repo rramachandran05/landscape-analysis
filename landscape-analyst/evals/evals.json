@@ -1,0 +1,23 @@
+{
+  "skill_name": "landscape-analyst",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm putting together a state-of-the-field review on GeoAI foundation models — pretrained/self-supervised models for satellite and aerial imagery. Can you build me a landscape analysis: pull recent work, figure out what's actually relevant, and give me a detailed report plus a 2-page synthesis I can hand to my director?",
+      "expected_output": "Elicits/confirms a theme description and a dimension rubric, writes the rubric to the manifest, invokes the Phase A tool to collect, curates (status + relevance_score + rationale on every record) via apply_curation.py without touching objective fields, fills dimensions and clusters, then produces a Full Report (grouped by cluster, consistent dimension table) and a <=2-page synthesis organized by dimension/cluster. No fabricated resources.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We already ran a landscape analysis on 'Agents for Science' a couple months ago — the manifest is at agents-for-science/manifest.json. Refresh it: grab anything new since then, but don't redo the curation I already signed off on. I want to see exactly what changed.",
+      "expected_output": "Runs the tool in --update mode, scores only the new (status: raw) records, preserves prior curated/dropped decisions and dimensions, re-clusters only if needed, regenerates both reports, and produces a delta block listing added / dropped / changed-by-dimension. Agent-owned fields on pre-existing resources are unchanged.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Here's a manifest.json from our collection tool with about 40 raw resources in it. Go through it and tell me which ones are actually worth including for a review on 'agents for scientific discovery', with a one-line reason for each keep/drop. Then organize the keepers into themes.",
+      "expected_output": "Reads the manifest, scores relevance for each raw resource with a one-line rationale, sets status curated/dropped via apply_curation.py (objective fields untouched), assigns cluster_ids, and presents the keep/drop decisions grouped into clusters. Every decision has a rationale; nothing is left undecided.",
+      "files": []
+    }
+  ]
+}
